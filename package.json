@@ -1,0 +1,59 @@
+{
+  "name": "styleguide-api-node",
+  "version": "1.0.0",
+  "description": "NodeJS Api for managing styleguide admin section",
+  "scripts": {
+    "build": "nps build",
+    "dev": "nps dev",
+    "lint": "eslint --ignore-path .gitignore --ignore-pattern \"!**/.*\" .",
+    "fix": "eslint --ignore-path .gitignore --ignore-pattern \"!**/.*\" --fix .",
+    "check": "flow check"
+  },
+  "author": "Anthony Allen",
+  "license": "MIT",
+  "keywords": [
+    "API",
+    "Express",
+    "REST",
+    "Mongoose",
+    "MongoDB"
+  ],
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@babel/runtime": "^7.1.2",
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-regenerator": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "chokidar": "^2.0.4",
+    "del": "^3.0.0",
+    "dotenv": "^6.1.0",
+    "eslint": "^5.6.1",
+    "eslint-config-google": "^0.11.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "flow-bin": "^0.82.0",
+    "nps": "^5.9.3",
+    "nps-utils": "^1.7.0",
+    "path": "^0.12.7",
+    "prettier": "^1.14.3",
+    "regenerator-runtime": "^0.12.1",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
