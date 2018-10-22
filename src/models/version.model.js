@@ -16,5 +16,5 @@ const VersionSchema = new Schema(
 );
 
 // Export the model
-const Version = mongoose.model('Version', VersionSchema);
+const Version = mongoose.model('Versions', VersionSchema);
 export default Version;

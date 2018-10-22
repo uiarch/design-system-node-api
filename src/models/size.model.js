@@ -16,5 +16,5 @@ const SizeSchema = new Schema(
 );
 
 // Export the model
-const Size = mongoose.model('Size', SizeSchema);
+const Size = mongoose.model('Sizes', SizeSchema);
 export default Size;

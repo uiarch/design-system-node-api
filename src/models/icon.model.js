@@ -19,5 +19,5 @@ const IconSchema = new Schema(
 );
 
 // Export the model
-const Icon = mongoose.model('Color', IconSchema);
+const Icon = mongoose.model('Icons', IconSchema);
 export default Icon;
