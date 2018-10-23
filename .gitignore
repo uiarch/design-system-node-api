@@ -59,6 +59,7 @@ typings/
 .devel.js
 .prod.js
 dist/
+www/
 
 # next.js build output
 .next
