@@ -1,10 +1,12 @@
 import {Router} from 'express';
-import * as IconController from '../controllers/icon.controller';
+import Icon from '../models/icon.model';
+import IconController from '../controllers/icon.controller';
 
 const routes = new Router();
+const IconCtrl = new IconController(Icon);
 
-routes.get('/', IconController.getList);
-routes.get('/:name', IconController.getByName);
-routes.post('/', IconController.create);
+routes.get('/', IconCtrl.getList);
+routes.get('/:name', IconCtrl.getByName);
+routes.post('/', IconCtrl.create);
 
 export default routes;
