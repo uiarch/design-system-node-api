@@ -2,15 +2,15 @@ import Abstract from './abstract.controller';
 
 /**
  * @export
- * @class IconController
+ * @class SizeController
  * @extends {Abstract}
  */
-export default class IconController extends Abstract {
+export default class SizeController extends Abstract {
   /**
-   * Creates an instance of IconController.
+   * Creates an instance of SizeController.
    *
    * @param {*} model
-   * @memberof IconController
+   * @memberof SizeController
    */
   constructor(model) {
     super(model);

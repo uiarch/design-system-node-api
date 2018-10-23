@@ -2,15 +2,15 @@ import Abstract from './abstract.controller';
 
 /**
  * @export
- * @class IconController
+ * @class ColorController
  * @extends {Abstract}
  */
-export default class IconController extends Abstract {
+export default class ColorController extends Abstract {
   /**
-   * Creates an instance of IconController.
+   * Creates an instance of ColorController.
    *
    * @param {*} model
-   * @memberof IconController
+   * @memberof ColorController
    */
   constructor(model) {
     super(model);
