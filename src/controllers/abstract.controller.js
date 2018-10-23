@@ -41,8 +41,6 @@ export default class Abstract {
    *  {
    *    "tags": ["solid", "outline"],
    *    "versions": [],
-   *    "sizes": [16,  24, 32],
-   *    "colors": ["warning", "success", "danger", "black"],
    *    "name": "person-icon",
    *    "version": "0",
    *  }
@@ -75,16 +73,12 @@ export default class Abstract {
    *  {
    *    "tags": ["solid", "outline"],
    *    "versions": [],
-   *    "sizes": [16,  24, 32],
-   *    "colors": ["warning", "success", "danger", "black"],
    *    "name": "person-icon",
    *    "version": "0",
    *  },
    *  {
    *    "tags": ["solid", "outline"],
    *    "versions": [],
-   *    "sizes": [16,  24, 32],
-   *    "colors": ["warning", "success", "danger", "black"],
    *    "name": "lock-icon",
    *    "version": "0",
    *  }
@@ -122,8 +116,6 @@ export default class Abstract {
    *  {
    *    "tags": ["solid", "outline"],
    *    "versions": [],
-   *    "sizes": [16,  24, 32],
-   *    "colors": ["warning", "success", "danger", "black"],
    *    "name": "person-icon",
    *    "version": "0",
    *  }
