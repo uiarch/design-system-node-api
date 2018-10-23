@@ -12,8 +12,8 @@ module.exports = {
       build: 'webpack --config webpack.config.js',
     },
     clean: {
-      description: 'Clean dist folder.',
-      default: rimraf('dist'),
+      description: 'Clean www folder.',
+      default: rimraf('www'),
     },
     dev: {
       default: {
@@ -21,7 +21,7 @@ module.exports = {
       },
       start: {
         description: 'Running on dev environment.',
-        script: crossEnv('NODE_ENV=development') + ' node dist/main.bundle.js',
+        script: crossEnv('NODE_ENV=development') + ' node www/main.bundle.js',
       },
       watch: {
         description: 'Webpack watch for change and compile.',

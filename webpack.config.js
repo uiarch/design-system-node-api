@@ -5,11 +5,11 @@ module.exports = {
   target: 'node',
   devtool: 'source-map',
   externals: [nodeExternals()],
-  entry: ['regenerator-runtime/runtime', './src/app.js'],
+  entry: ['regenerator-runtime/runtime', './api/app.js'],
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'www'),
     filename: '[name].bundle.js',
-    publicPath: 'dist/',
+    publicPath: 'www/',
   },
   module: {
     rules: [

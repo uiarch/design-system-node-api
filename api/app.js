@@ -2,14 +2,15 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import compression from 'compression';
-import './database/connect';
 import configs from './configs';
-
-// Imports routes for the icons
+import Connect from './database/connect';
 import ApiRoutes from './routes';
 
-const app = express();
+// Connect our Database.
+const dbConnect = new Connect(configs);
+dbConnect.initialize();
 
+const app = express();
 app.use(cors());
 app.use(compression());
 app.use(bodyParser.urlencoded({extended: true}));
