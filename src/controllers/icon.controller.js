@@ -95,7 +95,7 @@ export async function getList(req, res, next) {
  * @apiParam (Body) {Array} Tags Icon tags.
  * @apiParam (Body) {Array} versions Icon versions.
  *
- * @apiHeaderExample {json} Post-Example:
+ * @apiParamExample {json} Post-Example:
  *
  *  {
  *    "tags": ["solid", "outline"],
