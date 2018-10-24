@@ -1,0 +1,23 @@
+{
+  "projectName": "design-system-node-api",
+  "projectOwner": "Anthony Allen",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "uiarch",
+      "name": "Anthony Allen",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5857345?v=4",
+      "profile": "http://theuiarch.com",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 # Design Pattern NodeJS API
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 NodeJS API for managing styleguide admin section. Can also be used as a API project boilerplate.
 
 ## Dependencies
@@ -48,3 +49,14 @@ NodeJS API for managing styleguide admin section. Can also be used as a API proj
 
 ## API Examples
 ---
+
+## Contributors
+---
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars0.githubusercontent.com/u/5857345?v=4" width="100px;"/><br /><sub><b>Anthony Allen</b></sub>](http://theuiarch.com)<br />[💻](https://github.com/Anthony Allen/design-system-node-api/commits?author=uiarch "Code") [📖](https://github.com/Anthony Allen/design-system-node-api/commits?author=uiarch "Documentation") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+<!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
