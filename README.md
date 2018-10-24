@@ -58,6 +58,6 @@ NodeJS API for managing styleguide admin section. Can also be used as a API proj
 ---
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars0.githubusercontent.com/u/5857345?v=4" width="100px;"/><br /><sub><b>Anthony Allen</b></sub>](http://theuiarch.com)<br />[💻](https://github.com/Anthony Allen/design-system-node-api/commits?author=uiarch "Code") [📖](https://github.com/Anthony Allen/design-system-node-api/commits?author=uiarch "Documentation") |
+| [<img src="https://avatars0.githubusercontent.com/u/5857345?v=4" width="100px;"/><br /><sub><b>Anthony Allen</b></sub>](http://theuiarch.com)<br />[💻](https://github.com/uiarch/design-system-node-api/commits?author=uiarch "Code") [📖](https://github.com/uiarch/design-system-node-api/commits?author=uiarch "Documentation") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
