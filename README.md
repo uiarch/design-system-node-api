@@ -115,6 +115,9 @@ NodeJS API for managing design system. Can also be used as a API project boilerp
   * __Why is it used:__ Ignore all modules in `node_modules` directory.
   * __Example:__ See examples on [webpack-node-externals](https://www.npmjs.com/package/webpack-node-externals)
 
+### Was all this ^^ necessary?
+  * No not entirely, but by documenting all of my dependencies I was able to remove about 50% of what I had installed and narrow it down by asking my self why I was using it and how important was it.
+
 ## Installation
 ---
 
