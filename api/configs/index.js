@@ -8,7 +8,7 @@ const DATABASE = {
   MONGO_PORT: process.env.MONGO_PORT,
   CONNECT_URL: `mongodb://${process.env.MONGO_USER}:${encodeURIComponent(
     process.env.MONGO_PASSWORD,
-  )}@ds163822.mlab.com:${process.env.MONGO_PORT}/${process.env.MONGO_DB_NAME}`,
+  )}@${process.env.MONGO_URL}:${process.env.MONGO_PORT}/${process.env.MONGO_DB_NAME}`,
 };
 
 const APP_CONFIG = {

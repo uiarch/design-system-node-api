@@ -34,6 +34,20 @@ NodeJS API for managing styleguide admin section. Can also be used as a API proj
 ## Install Mongodb
 ---
 
+* In your terminal type `brew update`.
+* After homebrew is finished updating run `brew install mongodb`.
+* Start the mongo server `mongod`.
+* In another terminal window run mongo shell by typing `mongo` which is an application to access data in MongoDB.
+* __@todo add docs for creating auth user in mongodb__
+
+* Connecting to MongoDB
+  * Copy `.env.example` to `.env`
+  * `MONGO_URL=localhost`
+  * `MONGO_DB_NAME=dbName`
+  * `MONGO_USER=username`
+  * `MONGO_PASSWORD=password`
+  * `MONGO_PORT=27017`
+
 ## Running This Project
 ---
 * Uses [nps](https://www.npmjs.com/package/nps) (Node Package Scripts) dependency for handling our tasks.
