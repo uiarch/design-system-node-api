@@ -46,6 +46,10 @@ NodeJS API for managing styleguide admin section. Can also be used as a API proj
   * `npm run lint` - `nps lint`
 * Run `eslint` fix.
   * `lint:fix` - `nps lint.fix`
+* Follows the all-contributors specification.
+  * Run `contributors:add` which is used to add yourself to the contributors list. See [all-contributors](https://www.npmjs.com/package/all-contributors-cli) for more details and usage.
+    * `npm run contributors:add -- <github username> <contrib type>`
+    * `npm run contributors:generate` generates contributors in readme.md.
 
 ## API Examples
 ---
@@ -56,7 +60,4 @@ NodeJS API for managing styleguide admin section. Can also be used as a API proj
 <!-- prettier-ignore -->
 | [<img src="https://avatars0.githubusercontent.com/u/5857345?v=4" width="100px;"/><br /><sub><b>Anthony Allen</b></sub>](http://theuiarch.com)<br />[💻](https://github.com/Anthony Allen/design-system-node-api/commits?author=uiarch "Code") [📖](https://github.com/Anthony Allen/design-system-node-api/commits?author=uiarch "Documentation") |
 | :---: |
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-<!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->

@@ -8,7 +8,8 @@
     "watch:dev": "nps dev",
     "lint": "nps lint",
     "lint:fix": "nps lint.fix",
-    "check": "flow check"
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "author": "Anthony Allen",
   "license": "MIT",
@@ -36,6 +37,7 @@
     "@babel/core": "^7.1.2",
     "@babel/plugin-transform-regenerator": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
+    "all-contributors-cli": "^5.4.1",
     "babel-loader": "^8.0.4",
     "eslint": "^5.6.1",
     "eslint-config-google": "^0.11.0",
