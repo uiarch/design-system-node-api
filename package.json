@@ -46,7 +46,6 @@
     "nps": "^5.9.3",
     "nps-utils": "^1.7.0",
     "path": "^0.12.7",
-    "prettier": "^1.14.3",
     "regenerator-runtime": "^0.12.1",
     "webpack": "^4.21.0",
     "webpack-cli": "^3.1.2",

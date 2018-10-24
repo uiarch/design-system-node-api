@@ -49,35 +49,36 @@ NodeJS API for managing design system. Can also be used as a API project boilerp
 ## Dev Dependencies
 ---
 
-* [All Contributors CLI]()
-  * __Description:__
-  * __Why is it used:__
-  * __Example:__
+* [All Contributors CLI](https://www.npmjs.com/package/all-contributors-cli)
+  * __Description:__ Used to implement the `All Contributors Spec`.
+  * __Why is it used:__ Helps to automate the `All Contributors Spec` creates our `.all-contributorsrc` file and fill in contributor information. Also writes contributor info to `README.md`.
+  * __Example:__ See examples on [all-contributors-cli](https://www.npmjs.com/package/all-contributors-cli)
 
-* [Babel Core]()
-  * __Description:__
-  * __Why is it used:__
-  * __Example:__
+* [Babel Core](https://www.npmjs.com/package/@babel/core)
+  * __Description:__ Babel compiler core package.
+  * __Why is it used:__ Used as part of webpack in our build srcripts to compile `ECMAScript 2015+` into browser supported versions of JavaScript.
+  * __Example:__ See examples on [@babel/core](https://www.npmjs.com/package/@babel/core)
 
-* [Babel Loader]()
-  * __Description:__
-  * __Why is it used:__
-  * __Example:__
+* [Babel Loader](https://www.npmjs.com/package/babel-loader)
+  * __Description:__ Allows transpiling JavaScript with `Babel` and `WebPack`.
+  * __Why is it used:__ `WebPack` enables the use of loaders to preprocess files. Allows us to bundle our static resources.
+  * __Example:__ See examples on [babel-loader](https://www.npmjs.com/package/babel-loader)
 
-* [Babel Preset Env ]()
-  * __Description:__
-  * __Why is it used:__
-  * __Example:__
+* [Babel Preset Env ](https://www.npmjs.com/package/@babel/preset-env)
+  * __Description:__ Allows us to use the latest ECMA Script syntax without constantly chaning the supported versions.
+  * __Why is it used:__  Checks target environments against their mappings to compile a list of plugins and passes it to `Babel`.
+  * __Example:__ See examples on [@babel/preset-env](https://babeljs.io/docs/en/next/babel-preset-env.html)
 
-* [EsLint]()
-  * __Description:__
-  * __Why is it used:__
-  * __Example:__
+* [EsLint](https://www.npmjs.com/package/eslint)
+  * __Description:__ JavaScript syntax linter.
+  * __Why is it used:__ Lints our JavaScript syntax.
+  * __Example:__ See examples on [eslint](https://www.npmjs.com/package/eslint)
 
-* [EsLint Config Google]()
-  * __Description:__
-  * __Why is it used:__
-  * __Example:__
+* [EsLint Config Google](https://www.npmjs.com/package/eslint-config-google)
+  * __Description:__ `Google's JavaScript Styleguide`.
+  * __Why is it used:__ Our eslint configs extends these to define our `JavaScript styleguide` when linting.
+  * __Example:__ See examples on [eslint-config-google](https://www.npmjs.com/package/eslint-config-google)
+  * __Docs:__ [Google JavaScript Styleguide Docs](https://google.github.io/styleguide/jsguide.html)
 
 * [NPS Scripts](https://www.npmjs.com/package/nps)
   * __Description:__ Allows us to use npm scripts in a much cleaner way without bloating the package.json file.
@@ -89,35 +90,30 @@ NodeJS API for managing design system. Can also be used as a API project boilerp
   * __Why is it used:__ Wanted to use this so we could use it's utility methods within our nps tasks file.
   * __Example:__ Checkout the [API Docs](https://doc.esdoc.org/github.com/kentcdodds/nps-utils/) for list of all the utility methods.
 
-* [Path]()
-  * __Description:__
-  * __Why is it used:__
-  * __Example:__
-
-* [Prettier]()
-  * __Description:__
-  * __Why is it used:__
-  * __Example:__
+* [Path](https://www.npmjs.com/package/path)
+  * __Description:__ Utility for working with file and directory paths in NodeJS.
+  * __Why is it used:__ `Webpack` uses this for defining project paths.
+  * __Example:__ See examples on [path](https://nodejs.org/docs/latest/api/path.html)
 
 * [Regenerator Runtime]()
-  * __Description:__
-  * __Why is it used:__
-  * __Example:__
+  * __Description:__ From [GitHub](https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime) `Standalone runtime for Regenerator-compiled generator and async functions`
+  * __Why is it used:__ Adds support in WebPack for async functions.
+  * __Example:__ See examples on [regenerator-runtime](https://www.npmjs.com/package/regenerator-runtime)
 
-* [Webpack]()
-  * __Description:__
-  * __Why is it used:__
-  * __Example:__
+* [Webpack](https://www.npmjs.com/package/webpack)
+  * __Description:__ Module bundler for bundling JavaScript files for usage in a browser.
+  * __Why is it used:__ Bundles our `API` files into `www` dir.
+  * __Example:__ See examples on [webpack](https://webpack.js.org/concepts/)
 
-* [Webpack CLI]()
-  * __Description:__
-  * __Why is it used:__
-  * __Example:__
+* [Webpack CLI](https://www.npmjs.com/package/webpack-cli)
+  * __Description:__ CLI tool used for setting up Webpack projects.
+  * __Why is it used:__ Runds our webpack commands from build scripts.
+  * __Example:__ See our `package-scripts.js` where commands are being executed. Also see [webpack-cli](https://webpack.js.org/guides/getting-started/)
 
 * [Webpack Node Externals]()
-  * __Description:__
-  * __Why is it used:__
-  * __Example:__
+  * __Description:__ Used to exclude modules from bundling.
+  * __Why is it used:__ Ignore all modules in `node_modules` directory.
+  * __Example:__ See examples on [webpack-node-externals](https://www.npmjs.com/package/webpack-node-externals)
 
 ## Installation
 ---
