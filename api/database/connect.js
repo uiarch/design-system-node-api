@@ -44,7 +44,7 @@ export default class Connect {
       mongoose.createConnection(this._configs.DATABASE.CONNECT_URL);
     }
 
-    mongoose.connection.once('open', () => console.log('MongoDB Running')).on('error', error => {
+    mongoose.connection.once('open', () => console.log('MongoDB Connected')).on('error', error => {
       throw error;
     });
   }

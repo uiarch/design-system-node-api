@@ -39,9 +39,9 @@ export default class Abstract {
    * HTTP/1.1 200 OK
    *
    *  {
-   *    "tags": ["solid", "outline"],
+   *    "tags": ["solid", "wire"],
    *    "versions": [],
-   *    "name": "person-icon",
+   *    "name": "user-icon",
    *    "version": "0",
    *  }
    *
@@ -71,13 +71,13 @@ export default class Abstract {
    *
    * [
    *  {
-   *    "tags": ["solid", "outline"],
+   *    "tags": ["solid", "wire"],
    *    "versions": [],
-   *    "name": "person-icon",
+   *    "name": "user-icon",
    *    "version": "0",
    *  },
    *  {
-   *    "tags": ["solid", "outline"],
+   *    "tags": ["solid", "wire"],
    *    "versions": [],
    *    "name": "lock-icon",
    *    "version": "0",
@@ -114,9 +114,9 @@ export default class Abstract {
    * @apiParamExample {json} Post-Example:
    *
    *  {
-   *    "tags": ["solid", "outline"],
+   *    "tags": ["solid", "wire"],
    *    "versions": [],
-   *    "name": "person-icon",
+   *    "name": "user-icon",
    *    "version": "0",
    *  }
    *
