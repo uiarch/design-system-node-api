@@ -9,7 +9,7 @@ module.exports = {
     build: {
       description: 'Building in production environment.',
       default: series.nps('clean', 'build.build'),
-      build: 'webpack --config webpack.config.js',
+      build: 'webpack --config webpack.config.js --mode=production',
     },
     clean: {
       description: 'Clean www folder.',
@@ -19,6 +19,10 @@ module.exports = {
       default: {
         script: concurrent.nps('dev.watch', 'dev.start'),
       },
+      build: {
+        description: 'Building in development environment.',
+        script: 'webpack --config webpack.config.js --mode=development',
+      },
       start: {
         description: 'Running on dev environment.',
         script: crossEnv('NODE_ENV=development') + ' node www/main.bundle.js',
@@ -27,6 +31,10 @@ module.exports = {
         description: 'Webpack watch for change and compile.',
         script: 'webpack -w --mode=development',
       },
+    },
+    lint: {
+      default: 'eslint api',
+      fix: 'eslint --fix api',
     },
   },
 };

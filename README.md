@@ -1,4 +1,4 @@
-# styleguide-api-node
+# Design Pattern NodeJS API
 NodeJS API for managing styleguide admin section. Can also be used as a API project boilerplate.
 
 ## Dependencies
@@ -34,6 +34,17 @@ NodeJS API for managing styleguide admin section. Can also be used as a API proj
 
 ## Running This Project
 ---
+* Uses [nps](https://www.npmjs.com/package/nps) (Node Package Scripts) dependency for handling our tasks.
+* Build for production, cleans and compiles code to `www` dir then compresses JS.
+  * `npm run build:prod` - `"nps build"`
+* Build and run server for development, compiles code to `www` dir does not compress JS.
+  * `npm run build:dev` - `"nps dev.build"`
+* Watch and compile code and run node server.
+  * `npm run watch:dev` - `nps dev`
+* Run `eslint` which extends `eslint-config-google`.
+  * `npm run lint` - `nps lint`
+* Run `eslint` fix.
+  * `lint:fix` - `nps lint.fix`
 
 ## API Examples
 ---

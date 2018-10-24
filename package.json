@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "NodeJS Api for managing styleguide admin section",
   "scripts": {
-    "build": "nps build",
-    "dev": "nps dev",
-    "lint": "eslint --ignore-path .gitignore --ignore-pattern \"!**/.*\" .",
-    "fix": "eslint --ignore-path .gitignore --ignore-pattern \"!**/.*\" --fix .",
+    "build:prod": "nps build",
+    "build:dev": "nps dev.build",
+    "watch:dev": "nps dev",
+    "lint": "nps lint",
+    "lint:fix": "nps lint.fix",
     "check": "flow check"
   },
   "author": "Anthony Allen",
