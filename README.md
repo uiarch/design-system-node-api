@@ -1,7 +1,7 @@
-# Design Pattern NodeJS API
+# Design System NodeJS API
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
-NodeJS API for managing styleguide admin section. Can also be used as a API project boilerplate.
+NodeJS API for managing design system. Can also be used as a API project boilerplate.
 
 ## Dependencies
 ---
@@ -31,14 +31,14 @@ NodeJS API for managing styleguide admin section. Can also be used as a API proj
 ## Installation
 ---
 
-## Install Mongodb
+## Install MongoDB
 ---
 
 * In your terminal type `brew update`.
 * After homebrew is finished updating run `brew install mongodb`.
-* Start the mongo server `mongod`.
+* Start the MongoDB server `mongod`.
 * In another terminal window run mongo shell by typing `mongo` which is an application to access data in MongoDB.
-* __@todo add docs for creating auth user in mongodb__
+* __@todo add docs for creating auth user in MongoDB__
 
 * Connecting to MongoDB
   * Copy `.env.example` to `.env`
@@ -50,6 +50,7 @@ NodeJS API for managing styleguide admin section. Can also be used as a API proj
 
 ## Running This Project
 ---
+
 * Uses [nps](https://www.npmjs.com/package/nps) (Node Package Scripts) dependency for handling our tasks.
 * Build for production, cleans and compiles code to `www` dir then compresses JS.
   * `npm run build:prod` - `"nps build"`
@@ -71,6 +72,7 @@ NodeJS API for managing styleguide admin section. Can also be used as a API proj
 
 ## Contributors
 ---
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 | [<img src="https://avatars0.githubusercontent.com/u/5857345?v=4" width="100px;"/><br /><sub><b>Anthony Allen</b></sub>](http://theuiarch.com)<br />[💻](https://github.com/uiarch/design-system-node-api/commits?author=uiarch "Code") [📖](https://github.com/uiarch/design-system-node-api/commits?author=uiarch "Documentation") |
