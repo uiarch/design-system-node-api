@@ -1,5 +1,6 @@
 # Design Pattern NodeJS API
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+
 NodeJS API for managing styleguide admin section. Can also be used as a API project boilerplate.
 
 ## Dependencies
