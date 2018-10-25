@@ -9,7 +9,8 @@
     "lint": "nps lint",
     "lint:fix": "nps lint.fix",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "test": "jest"
   },
   "author": "Anthony Allen",
   "license": "MIT",
@@ -40,9 +41,12 @@
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "all-contributors-cli": "^5.4.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
     "eslint": "^5.6.1",
     "eslint-config-google": "^0.11.0",
+    "jest": "^23.6.0",
     "nps": "^5.9.3",
     "nps-utils": "^1.7.0",
     "path": "^0.12.7",
