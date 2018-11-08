@@ -40,5 +40,9 @@ module.exports = {
       default: 'jest --detectOpenHandles',
       coverage: 'jest --detectOpenHandles --coverage',
     },
+    doc: {
+      description: 'Documenting The API.',
+      default: 'apidoc --debug -i api',
+    },
   },
 };

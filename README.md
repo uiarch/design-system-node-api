@@ -54,6 +54,11 @@ NodeJS API for managing design system. Can also be used as a API project boilerp
   * __Why is it used:__ Helps to automate the `All Contributors Spec` creates our `.all-contributorsrc` file and fill in contributor information. Also writes contributor info to `README.md`.
   * __Example:__ See examples on [all-contributors-cli](https://www.npmjs.com/package/all-contributors-cli)
 
+* [API Doc](https://www.npmjs.com/package/apidoc)
+  * __Description:__ Used to create API documentation.
+  * __Why is it used:__ This creates a documentation from API annotations in our source code.
+  * __Example:__ See examples on [apidoc](http://apidocjs.com/)
+
 * [Babel Core](https://www.npmjs.com/package/@babel/core)
   * __Description:__ Babel compiler core package.
   * __Why is it used:__ Used as part of webpack in our build srcripts to compile `ECMAScript 2015+` into browser supported versions of JavaScript.

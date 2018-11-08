@@ -53,7 +53,10 @@ export default class Abstract {
    * @apiName getByName
    * @apiGroup Abstract
    * @apiParam {string} name
-   * @apiErrorExample {json} item not found HTTP/1.1 404 Not Found
+   * @apiErrorExample {json} Error
+   *
+   * HTTP/1.1 404 Not Found
+   *
    * @apiSuccessExample Success-Response:
    *
    * HTTP/1.1 200 OK
@@ -84,7 +87,10 @@ export default class Abstract {
    * @apiDescription Get a list of items
    * @apiName getList
    * @apiGroup Abstract
-   * @apiErrorExample {json} items not found HTTP/1.1 404 Not Found
+   * @apiErrorExample {json} Error
+   *
+   * HTTP/1.1 404 Not Found
+   *
    * @apiSuccessExample Success-Response:
    *
    * HTTP/1.1 200 OK
@@ -124,7 +130,10 @@ export default class Abstract {
    * @apiName create
    * @apiGroup Abstract
    *
-   * @apiErrorExample {json} item not found HTTP/1.1 404 Not Found
+   * @apiErrorExample {json} Error
+   *
+   * HTTP/1.1 404 Not Found
+   *
    * @apiSuccessExample Success-Response:
    * HTTP/1.1 200 OK
    *

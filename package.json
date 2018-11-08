@@ -11,7 +11,8 @@
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
     "test": "nps test",
-    "test:coverage": "nps test.coverage"
+    "test:coverage": "nps test.coverage",
+    "doc": "nps doc"
   },
   "author": "Anthony Allen",
   "license": "MIT",
@@ -42,6 +43,7 @@
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "all-contributors-cli": "^5.4.1",
+    "apidoc": "^0.17.6",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
