@@ -10,7 +10,8 @@
     "lint:fix": "nps lint.fix",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
-    "test": "jest"
+    "test": "nps test",
+    "test:coverage": "nps test.coverage"
   },
   "author": "Anthony Allen",
   "license": "MIT",

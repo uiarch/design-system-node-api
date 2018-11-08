@@ -60,6 +60,7 @@ typings/
 .prod.js
 dist/
 www/
+.vscode
 
 # next.js build output
 .next

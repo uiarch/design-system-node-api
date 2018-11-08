@@ -36,5 +36,9 @@ module.exports = {
       default: 'eslint api',
       fix: 'eslint --fix api',
     },
+    test: {
+      default: 'jest --detectOpenHandles',
+      coverage: 'jest --detectOpenHandles --coverage',
+    },
   },
 };
