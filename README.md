@@ -64,6 +64,11 @@ NodeJS API for managing design system. Can also be used as a API project boilerp
   * __Why is it used:__ Used as part of webpack in our build srcripts to compile `ECMAScript 2015+` into browser supported versions of JavaScript.
   * __Example:__ See examples on [@babel/core](https://www.npmjs.com/package/@babel/core)
 
+* [Babel Jest](https://www.npmjs.com/package/babel-jest)
+  * __Description:__ Allows transpiling JavaScript test with `Babel` and `WebPack`.
+  * __Why is it used:__ So we can write es6 > in our tests.
+  * __Example:__ See examples on [babel-jest](https://www.npmjs.com/package/babel-jest)
+
 * [Babel Loader](https://www.npmjs.com/package/babel-loader)
   * __Description:__ Allows transpiling JavaScript with `Babel` and `WebPack`.
   * __Why is it used:__ `WebPack` enables the use of loaders to preprocess files. Allows us to bundle our static resources.
@@ -84,6 +89,11 @@ NodeJS API for managing design system. Can also be used as a API project boilerp
   * __Why is it used:__ Our eslint configs extends these to define our `JavaScript styleguide` when linting.
   * __Example:__ See examples on [eslint-config-google](https://www.npmjs.com/package/eslint-config-google)
   * __Docs:__ [Google JavaScript Styleguide Docs](https://google.github.io/styleguide/jsguide.html)
+
+* [Jest](https://jestjs.io/)
+  * __Description:__ JavaScript testing library.
+  * __Why is it used:__ Used to run tests, generate coverage and more.
+  * __Example:__ See examples on [jest](https://www.npmjs.com/package/jest)
 
 * [NPS Scripts](https://www.npmjs.com/package/nps)
   * __Description:__ Allows us to use npm scripts in a much cleaner way without bloating the package.json file.
@@ -169,6 +179,14 @@ NodeJS API for managing design system. Can also be used as a API project boilerp
   * Run `contributors:add` which is used to add yourself to the contributors list. See [all-contributors](https://www.npmjs.com/package/all-contributors-cli) for more details and usage.
     * `npm run contributors:add -- <github username> <contrib type>`
     * `npm run contributors:generate` generates contributors in readme.md.
+* Uses [jest](https://jestjs.io/) library for testing.
+  * To run test simply run.
+    * `npm run test`.
+  * To generate test coverage run.
+    * `npm run test:coverage`
+* Uses [apidoc](http://apidocjs.com/) to create inline documentation from API annotations.
+  * To generate documentation run.
+    * `npm run doc`
 
 ## API Examples
 ---
