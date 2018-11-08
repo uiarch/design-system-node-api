@@ -1,9 +1,7 @@
 import HTTPStatus from 'http-status';
 
 /**
- * Application Abstract Controller class.
- *
- * @api Abstract class, cannot be instantiated but extended only.
+ * @api Application Abstract Controller class.
  *
  * @export
  * @class Abstract
