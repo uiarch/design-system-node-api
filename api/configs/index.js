@@ -6,9 +6,9 @@ const DATABASE = {
   MONGO_USER: process.env.MONGO_USER,
   MONGO_PASSWORD: process.env.MONGO_PASSWORD,
   MONGO_PORT: process.env.MONGO_PORT,
-  CONNECT_URL: `mongodb://${process.env.MONGO_USER}:${encodeURIComponent(
-    process.env.MONGO_PASSWORD,
-  )}@${process.env.MONGO_URL}:${process.env.MONGO_PORT}/${process.env.MONGO_DB_NAME}`,
+  CONNECT_URL: `mongodb://${process.env.MONGO_USER}:${encodeURIComponent(process.env.MONGO_PASSWORD)}@${
+    process.env.MONGO_URL
+  }:${process.env.MONGO_PORT}/${process.env.MONGO_DB_NAME}`,
 };
 
 const APP_CONFIG = {
@@ -18,7 +18,10 @@ const APP_CONFIG = {
   MONGOOSE_DEBUG: process.env.MONGOOSE_DEBUG,
 };
 
+const APP_LOGGING = {SENTRY_DSN: process.env.SENTRY_DSN};
+
 export default {
   DATABASE,
   APP_CONFIG,
+  APP_LOGGING,
 };

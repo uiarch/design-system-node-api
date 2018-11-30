@@ -9,7 +9,6 @@ import Logger from './services/Logger';
 
 const logger = new Logger();
 
-
 // Connect our Database.
 const dbConnect = new Connect(configs);
 dbConnect.initialize();

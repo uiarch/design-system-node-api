@@ -1,6 +1,6 @@
-import LoggerInterface from './LoggerInterface';
+import AbstractLogger from './AbstractLogger';
 
-export default class Logger extends LoggerInterface {
+export default class Logger extends AbstractLogger {
   constructor() {
     super();
     this.isProd = process.env.NODE_ENV === 'production';

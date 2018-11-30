@@ -1,12 +1,12 @@
-export default class LoggerInterface {
+export default class AbstractLogger {
   /**
-   * LoggerInterface constructor.
+   * AbstractLogger constructor.
    *
-   * @memberof LoggerInterface
+   * @memberof AbstractLogger
    */
   constructor() {
-    if (new.target === LoggerInterface) {
-      throw new TypeError('Cannot construct Interface instances directly.');
+    if (new.target === AbstractLogger) {
+      throw new TypeError('Cannot construct Abstract instances directly.');
     }
 
     this.emergency();
