@@ -5,6 +5,10 @@ import compression from 'compression';
 import configs from './configs';
 import Connect from './database/connect';
 import ApiRoutes from './routes';
+import Logger from './services/Logger';
+
+const logger = new Logger();
+
 
 // Connect our Database.
 const dbConnect = new Connect(configs);

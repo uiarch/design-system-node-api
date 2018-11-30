@@ -1,6 +1,6 @@
 import {Router} from 'express';
-import Icon from '../models/icon.model';
-import IconController from '../controllers/icon.controller';
+import Icon from '../models/IconModel';
+import IconController from '../controllers/IconController';
 
 const routes = new Router();
 const IconCtrl = new IconController(Icon);

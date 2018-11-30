@@ -1,4 +1,4 @@
-import Abstract from './abstract.controller';
+import Abstract from './AbstractController';
 
 /**
  * @export

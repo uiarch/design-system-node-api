@@ -8,7 +8,7 @@ import HTTPStatus from 'http-status';
  */
 export default class Abstract {
   /**
-   * Creates an instance of Abstract.
+   * Abstract constructor.
    *
    * @param {*} model - DI model required for CRUD methods.
    * @memberof Abstract
@@ -20,7 +20,7 @@ export default class Abstract {
       throw new TypeError('Cannot construct Abstract instances directly.');
     }
 
-    // Cannot operate without a model so let throw an error immediately if one is not provided.
+    // Cannot operate without a model so lets throw an error immediately if one is not provided.
     if (model === undefined || this.isEmpty(model)) {
       throw new TypeError('A model object is required.');
     }

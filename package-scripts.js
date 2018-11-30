@@ -29,7 +29,7 @@ module.exports = {
       },
       watch: {
         description: 'Webpack watch for change and compile.',
-        script: 'webpack -w --mode=development',
+        script: 'webpack --config webpack.config.js -w --mode=development',
       },
     },
     lint: {
