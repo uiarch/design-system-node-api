@@ -1,7 +1,14 @@
+/**
+ * Application AbstractLogger class.
+ *
+ * @export
+ * @class AbstractLogger
+ */
 export default class AbstractLogger {
   /**
    * AbstractLogger constructor.
    *
+   * @constructor
    * @memberof AbstractLogger
    */
   constructor() {
@@ -23,6 +30,8 @@ export default class AbstractLogger {
   /**
    * System is unusable.
    *
+   * @desc Method is considered abstract and must be implemented by child/subclass.
+   *
    * @param {string} message
    * @param {array} context
    * @return {Error}
@@ -34,8 +43,10 @@ export default class AbstractLogger {
   /**
    * Action must be taken immediately.
    *
-   * Example: Entire website down, database unavailable, etc. This should
-   * trigger the SMS alerts and wake you up.
+   * @example Entire website down, database unavailable, etc. This should
+   *          trigger the SMS alerts and wake you up.
+   *
+   * @desc Method is considered abstract and must be implemented by child/subclass.
    *
    * @param {string} message
    * @param {array} context
@@ -48,7 +59,9 @@ export default class AbstractLogger {
   /**
    * Critical conditions.
    *
-   * Example: Application component unavailable, unexpected exception.
+   * @example Application component unavailable, unexpected exception.
+   *
+   * @desc Method is considered abstract and must be implemented by child/subclass.
    *
    * @param {string} message
    * @param {array} context
@@ -62,6 +75,8 @@ export default class AbstractLogger {
    * Runtime errors that do not require immediate action but should typically
    * be logged and monitored.
    *
+   * @desc Method is considered abstract and must be implemented by child/subclass.
+   *
    * @param {string} message
    * @param {array} context
    * @return {Error}
@@ -73,8 +88,10 @@ export default class AbstractLogger {
   /**
    * Exceptional occurrences that are not errors.
    *
-   * Example: Use of deprecated APIs, poor use of an API, undesirable things
-   * that are not necessarily wrong.
+   * @example Use of deprecated APIs, poor use of an API, undesirable things
+   *          that are not necessarily wrong.
+   *
+   * @desc Method is considered abstract and must be implemented by child/subclass.
    *
    * @param {string} message
    * @param {array} context
@@ -87,6 +104,8 @@ export default class AbstractLogger {
   /**
    * Normal but significant events.
    *
+   * @desc Method is considered abstract and must be implemented by child/subclass.
+   *
    * @param {string} message
    * @param {array} context
    * @return {Error}
@@ -98,7 +117,9 @@ export default class AbstractLogger {
   /**
    * Interesting events.
    *
-   * Example: User logs in, SQL logs.
+   * @example User logs in, SQL logs.
+   *
+   * @desc Method is considered abstract and must be implemented by child/subclass.
    *
    * @param {string} message
    * @param {array} context
@@ -111,6 +132,8 @@ export default class AbstractLogger {
   /**
    * Detailed debug information.
    *
+   * @desc Method is considered abstract and must be implemented by child/subclass.
+   *
    * @param {string} message
    * @param {array} context
    * @return {Error}
@@ -122,6 +145,8 @@ export default class AbstractLogger {
   /**
    * Logs with an arbitrary level.
    *
+   * @desc Method is considered abstract and must be implemented by child/subclass.
+   *
    * @param {*} level
    * @param {*} message
    * @param {*} context
@@ -132,6 +157,7 @@ export default class AbstractLogger {
   }
 
   /**
+   * Throws error if method not implemented.
    *
    * @param {*} methodName name of method we are throwing error for.
    * @throws Error

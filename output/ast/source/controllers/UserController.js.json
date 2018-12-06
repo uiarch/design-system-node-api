@@ -1,0 +1,1269 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 2902,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 118,
+      "column": 0
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 2902,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 118,
+        "column": 0
+      }
+    },
+    "sourceType": "module",
+    "body": [
+      {
+        "type": "ImportDeclaration",
+        "start": 0,
+        "end": 44,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "start": 7,
+            "end": 15,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 7
+              },
+              "end": {
+                "line": 1,
+                "column": 15
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 7,
+              "end": 15,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 7
+                },
+                "end": {
+                  "line": 1,
+                  "column": 15
+                },
+                "identifierName": "Abstract"
+              },
+              "name": "Abstract"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 21,
+          "end": 43,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 21
+            },
+            "end": {
+              "line": 1,
+              "column": 43
+            }
+          },
+          "extra": {
+            "rawValue": "./AbstractController",
+            "raw": "'./AbstractController'"
+          },
+          "value": "./AbstractController"
+        },
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * @api UserController for user CRUD.\n *\n * @export\n * @class UserController\n * @extends {Abstract}\n ",
+            "start": 46,
+            "end": 153,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 0
+              },
+              "end": {
+                "line": 9,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ExportDefaultDeclaration",
+        "start": 154,
+        "end": 2901,
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 0
+          },
+          "end": {
+            "line": 117,
+            "column": 1
+          }
+        },
+        "declaration": {
+          "type": "ClassDeclaration",
+          "start": 169,
+          "end": 2901,
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 15
+            },
+            "end": {
+              "line": 117,
+              "column": 1
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "start": 175,
+            "end": 189,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 21
+              },
+              "end": {
+                "line": 10,
+                "column": 35
+              },
+              "identifierName": "UserController"
+            },
+            "name": "UserController",
+            "leadingComments": null
+          },
+          "superClass": {
+            "type": "Identifier",
+            "start": 198,
+            "end": 206,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 44
+              },
+              "end": {
+                "line": 10,
+                "column": 52
+              },
+              "identifierName": "Abstract"
+            },
+            "name": "Abstract"
+          },
+          "body": {
+            "type": "ClassBody",
+            "start": 207,
+            "end": 2901,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 53
+              },
+              "end": {
+                "line": 117,
+                "column": 1
+              }
+            },
+            "body": [
+              {
+                "type": "ClassMethod",
+                "start": 324,
+                "end": 366,
+                "loc": {
+                  "start": {
+                    "line": 17,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 19,
+                    "column": 3
+                  }
+                },
+                "static": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 324,
+                  "end": 335,
+                  "loc": {
+                    "start": {
+                      "line": 17,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 17,
+                      "column": 13
+                    },
+                    "identifierName": "constructor"
+                  },
+                  "name": "constructor",
+                  "leadingComments": null
+                },
+                "kind": "constructor",
+                "id": null,
+                "generator": false,
+                "expression": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 336,
+                    "end": 341,
+                    "loc": {
+                      "start": {
+                        "line": 17,
+                        "column": 14
+                      },
+                      "end": {
+                        "line": 17,
+                        "column": 19
+                      },
+                      "identifierName": "model"
+                    },
+                    "name": "model"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 343,
+                  "end": 366,
+                  "loc": {
+                    "start": {
+                      "line": 17,
+                      "column": 21
+                    },
+                    "end": {
+                      "line": 19,
+                      "column": 3
+                    }
+                  },
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 349,
+                      "end": 362,
+                      "loc": {
+                        "start": {
+                          "line": 18,
+                          "column": 4
+                        },
+                        "end": {
+                          "line": 18,
+                          "column": 17
+                        }
+                      },
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 349,
+                        "end": 361,
+                        "loc": {
+                          "start": {
+                            "line": 18,
+                            "column": 4
+                          },
+                          "end": {
+                            "line": 18,
+                            "column": 16
+                          }
+                        },
+                        "callee": {
+                          "type": "Super",
+                          "start": 349,
+                          "end": 354,
+                          "loc": {
+                            "start": {
+                              "line": 18,
+                              "column": 4
+                            },
+                            "end": {
+                              "line": 18,
+                              "column": 9
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 355,
+                            "end": 360,
+                            "loc": {
+                              "start": {
+                                "line": 18,
+                                "column": 10
+                              },
+                              "end": {
+                                "line": 18,
+                                "column": 15
+                              },
+                              "identifierName": "model"
+                            },
+                            "name": "model"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "directives": [],
+                  "trailingComments": null
+                },
+                "leadingComments": [
+                  {
+                    "type": "CommentBlock",
+                    "value": "*\n   * Creates an instance of UserController.\n   *\n   * @param {*} model\n   * @memberof UserController\n   ",
+                    "start": 211,
+                    "end": 321,
+                    "loc": {
+                      "start": {
+                        "line": 11,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 16,
+                        "column": 5
+                      }
+                    }
+                  }
+                ],
+                "trailingComments": [
+                  {
+                    "type": "CommentBlock",
+                    "value": "*\n   * @api {get} /users/:name Get user by username (http://example.com/api/users/username)\n   * @apiDescription Get single user by username.\n   * @apiName getByName\n   * @apiGroup UserController\n   * @apiParam (Body) {String} username User username.\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   *\n   * HTTP/1.1 200 OK\n   *\n   *  {\n   *   \"_id\": \"5be4c3440cb85b07bdcab447\",\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test4@gmail.com\",\n   *  \"username\": \"testing4\",\n   *  \"password\": \"password1\",\n   *  \"created_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"updated_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"__v\": 0\n   *  }\n   ",
+                    "start": 370,
+                    "end": 1094,
+                    "loc": {
+                      "start": {
+                        "line": 21,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 46,
+                        "column": 5
+                      }
+                    }
+                  },
+                  {
+                    "type": "CommentBlock",
+                    "value": "*\n   * @api {get} /users Get list of users (http://example.com/api/users)\n   * @apiDescription Get a list of users\n   * @apiName getList\n   * @apiGroup UserController\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   *\n   * HTTP/1.1 200 OK\n   *\n   * [\n   *  {\n   *  \"_id\": \"5be4c3440cb85b07bdcab447\",\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test1@gmail.com\",\n   *  \"username\": \"testing1\",\n   *  \"password\": \"password1\",\n   *  \"created_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"updated_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"__v\": 0\n   *  },\n   *  {\n   *  \"_id\": \"5be4c3440cb85b07bdcab447\",\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test2@gmail.com\",\n   *  \"username\": \"testing2\",\n   *  \"password\": \"password1\",\n   *  \"created_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"updated_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"__v\": 0\n   *  }\n   * ]\n   ",
+                    "start": 1098,
+                    "end": 2071,
+                    "loc": {
+                      "start": {
+                        "line": 48,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 85,
+                        "column": 5
+                      }
+                    }
+                  },
+                  {
+                    "type": "CommentBlock",
+                    "value": "*\n   * @api {post} /endpoint Create user (http://example.com/api/users)\n   * @apiDescription Create user requires body obj.\n   * @apiName create\n   * @apiGroup UserController\n   *\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   * HTTP/1.1 200 OK\n   *\n   *\n   * @apiParam (Body) {String} email User email.\n   * @apiParam (Body) {String} password User password.\n   * @apiParam (Body) {String} username User username.\n   * @apiParam (Body) {String} firstname User first name.\n   * @apiParam (Body) {String} lastname User last name.\n   *\n   * @apiParamExample {json} Post-Example:\n   *\n   * {\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test2@gmail.com\",\n   *  \"username\": \"testing2\",\n   *  \"password\": \"password1\",\n   * }\n   ",
+                    "start": 2075,
+                    "end": 2899,
+                    "loc": {
+                      "start": {
+                        "line": 87,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 116,
+                        "column": 5
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "leadingComments": [
+            {
+              "type": "CommentBlock",
+              "value": "*\n * @api UserController for user CRUD.\n *\n * @export\n * @class UserController\n * @extends {Abstract}\n ",
+              "start": 46,
+              "end": 153,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 0
+                },
+                "end": {
+                  "line": 9,
+                  "column": 3
+                }
+              }
+            }
+          ],
+          "trailingComments": []
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * @api UserController for user CRUD.\n *\n * @export\n * @class UserController\n * @extends {Abstract}\n ",
+            "start": 46,
+            "end": 153,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 0
+              },
+              "end": {
+                "line": 9,
+                "column": 3
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "directives": []
+  },
+  "comments": [
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @api UserController for user CRUD.\n *\n * @export\n * @class UserController\n * @extends {Abstract}\n ",
+      "start": 46,
+      "end": 153,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n   * Creates an instance of UserController.\n   *\n   * @param {*} model\n   * @memberof UserController\n   ",
+      "start": 211,
+      "end": 321,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n   * @api {get} /users/:name Get user by username (http://example.com/api/users/username)\n   * @apiDescription Get single user by username.\n   * @apiName getByName\n   * @apiGroup UserController\n   * @apiParam (Body) {String} username User username.\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   *\n   * HTTP/1.1 200 OK\n   *\n   *  {\n   *   \"_id\": \"5be4c3440cb85b07bdcab447\",\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test4@gmail.com\",\n   *  \"username\": \"testing4\",\n   *  \"password\": \"password1\",\n   *  \"created_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"updated_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"__v\": 0\n   *  }\n   ",
+      "start": 370,
+      "end": 1094,
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 46,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n   * @api {get} /users Get list of users (http://example.com/api/users)\n   * @apiDescription Get a list of users\n   * @apiName getList\n   * @apiGroup UserController\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   *\n   * HTTP/1.1 200 OK\n   *\n   * [\n   *  {\n   *  \"_id\": \"5be4c3440cb85b07bdcab447\",\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test1@gmail.com\",\n   *  \"username\": \"testing1\",\n   *  \"password\": \"password1\",\n   *  \"created_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"updated_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"__v\": 0\n   *  },\n   *  {\n   *  \"_id\": \"5be4c3440cb85b07bdcab447\",\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test2@gmail.com\",\n   *  \"username\": \"testing2\",\n   *  \"password\": \"password1\",\n   *  \"created_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"updated_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"__v\": 0\n   *  }\n   * ]\n   ",
+      "start": 1098,
+      "end": 2071,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 2
+        },
+        "end": {
+          "line": 85,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n   * @api {post} /endpoint Create user (http://example.com/api/users)\n   * @apiDescription Create user requires body obj.\n   * @apiName create\n   * @apiGroup UserController\n   *\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   * HTTP/1.1 200 OK\n   *\n   *\n   * @apiParam (Body) {String} email User email.\n   * @apiParam (Body) {String} password User password.\n   * @apiParam (Body) {String} username User username.\n   * @apiParam (Body) {String} firstname User first name.\n   * @apiParam (Body) {String} lastname User last name.\n   *\n   * @apiParamExample {json} Post-Example:\n   *\n   * {\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test2@gmail.com\",\n   *  \"username\": \"testing2\",\n   *  \"password\": \"password1\",\n   * }\n   ",
+      "start": 2075,
+      "end": 2899,
+      "loc": {
+        "start": {
+          "line": 87,
+          "column": 2
+        },
+        "end": {
+          "line": 116,
+          "column": 5
+        }
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 0,
+      "end": 6,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Abstract",
+      "start": 7,
+      "end": 15,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 7
+        },
+        "end": {
+          "line": 1,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 16,
+      "end": 20,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 16
+        },
+        "end": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "./AbstractController",
+      "start": 21,
+      "end": 43,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 21
+        },
+        "end": {
+          "line": 1,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 43
+        },
+        "end": {
+          "line": 1,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @api UserController for user CRUD.\n *\n * @export\n * @class UserController\n * @extends {Abstract}\n ",
+      "start": 46,
+      "end": 153,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 154,
+      "end": 160,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "default",
+      "start": 161,
+      "end": 168,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 7
+        },
+        "end": {
+          "line": 10,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "class",
+        "keyword": "class",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "class",
+      "start": 169,
+      "end": 174,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 15
+        },
+        "end": {
+          "line": 10,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "UserController",
+      "start": 175,
+      "end": 189,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 21
+        },
+        "end": {
+          "line": 10,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "extends",
+        "keyword": "extends",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "extends",
+      "start": 190,
+      "end": 197,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 36
+        },
+        "end": {
+          "line": 10,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Abstract",
+      "start": 198,
+      "end": 206,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 44
+        },
+        "end": {
+          "line": 10,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 207,
+      "end": 208,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 53
+        },
+        "end": {
+          "line": 10,
+          "column": 54
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n   * Creates an instance of UserController.\n   *\n   * @param {*} model\n   * @memberof UserController\n   ",
+      "start": 211,
+      "end": 321,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "constructor",
+      "start": 324,
+      "end": 335,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 2
+        },
+        "end": {
+          "line": 17,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 335,
+      "end": 336,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 13
+        },
+        "end": {
+          "line": 17,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "model",
+      "start": 336,
+      "end": 341,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 14
+        },
+        "end": {
+          "line": 17,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 341,
+      "end": 342,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 19
+        },
+        "end": {
+          "line": 17,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 343,
+      "end": 344,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 21
+        },
+        "end": {
+          "line": 17,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "super",
+        "keyword": "super",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "super",
+      "start": 349,
+      "end": 354,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 4
+        },
+        "end": {
+          "line": 18,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 354,
+      "end": 355,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 9
+        },
+        "end": {
+          "line": 18,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "model",
+      "start": 355,
+      "end": 360,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 10
+        },
+        "end": {
+          "line": 18,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 360,
+      "end": 361,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 15
+        },
+        "end": {
+          "line": 18,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 361,
+      "end": 362,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 16
+        },
+        "end": {
+          "line": 18,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 365,
+      "end": 366,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 2
+        },
+        "end": {
+          "line": 19,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n   * @api {get} /users/:name Get user by username (http://example.com/api/users/username)\n   * @apiDescription Get single user by username.\n   * @apiName getByName\n   * @apiGroup UserController\n   * @apiParam (Body) {String} username User username.\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   *\n   * HTTP/1.1 200 OK\n   *\n   *  {\n   *   \"_id\": \"5be4c3440cb85b07bdcab447\",\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test4@gmail.com\",\n   *  \"username\": \"testing4\",\n   *  \"password\": \"password1\",\n   *  \"created_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"updated_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"__v\": 0\n   *  }\n   ",
+      "start": 370,
+      "end": 1094,
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 46,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n   * @api {get} /users Get list of users (http://example.com/api/users)\n   * @apiDescription Get a list of users\n   * @apiName getList\n   * @apiGroup UserController\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   *\n   * HTTP/1.1 200 OK\n   *\n   * [\n   *  {\n   *  \"_id\": \"5be4c3440cb85b07bdcab447\",\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test1@gmail.com\",\n   *  \"username\": \"testing1\",\n   *  \"password\": \"password1\",\n   *  \"created_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"updated_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"__v\": 0\n   *  },\n   *  {\n   *  \"_id\": \"5be4c3440cb85b07bdcab447\",\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test2@gmail.com\",\n   *  \"username\": \"testing2\",\n   *  \"password\": \"password1\",\n   *  \"created_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"updated_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"__v\": 0\n   *  }\n   * ]\n   ",
+      "start": 1098,
+      "end": 2071,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 2
+        },
+        "end": {
+          "line": 85,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n   * @api {post} /endpoint Create user (http://example.com/api/users)\n   * @apiDescription Create user requires body obj.\n   * @apiName create\n   * @apiGroup UserController\n   *\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   * HTTP/1.1 200 OK\n   *\n   *\n   * @apiParam (Body) {String} email User email.\n   * @apiParam (Body) {String} password User password.\n   * @apiParam (Body) {String} username User username.\n   * @apiParam (Body) {String} firstname User first name.\n   * @apiParam (Body) {String} lastname User last name.\n   *\n   * @apiParamExample {json} Post-Example:\n   *\n   * {\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test2@gmail.com\",\n   *  \"username\": \"testing2\",\n   *  \"password\": \"password1\",\n   * }\n   ",
+      "start": 2075,
+      "end": 2899,
+      "loc": {
+        "start": {
+          "line": 87,
+          "column": 2
+        },
+        "end": {
+          "line": 116,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 2900,
+      "end": 2901,
+      "loc": {
+        "start": {
+          "line": 117,
+          "column": 0
+        },
+        "end": {
+          "line": 117,
+          "column": 1
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 2902,
+      "end": 2902,
+      "loc": {
+        "start": {
+          "line": 118,
+          "column": 0
+        },
+        "end": {
+          "line": 118,
+          "column": 0
+        }
+      }
+    }
+  ]
+}

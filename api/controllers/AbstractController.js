@@ -10,8 +10,9 @@ export default class Abstract {
   /**
    * Abstract constructor.
    *
-   * @param {*} model - DI model required for CRUD methods.
+   * @constructor
    * @memberof Abstract
+   * @param {object} model - DI model required for CRUD methods.
    */
   constructor(model) {
     // Detect whether this constructor was called using the new operator.
@@ -32,11 +33,11 @@ export default class Abstract {
   }
 
   /**
-   * Test if an object is empty
+   * Test if an object is empty.
    *
-   * @param {*} obj
-   * @return {boolean}
    * @memberof Abstract
+   * @param {object} obj to be tested.
+   * @return {boolean}
    */
   isEmpty(obj) {
     for (const key in obj) {
@@ -66,6 +67,7 @@ export default class Abstract {
    *    "version": "0",
    *  }
    *
+   * @memberof Abstract
    * @param {string} req
    * @param {string} res
    * @param {any} next
@@ -108,6 +110,7 @@ export default class Abstract {
    *  }
    * ]
    *
+   * @memberof Abstract
    * @param {string} req
    * @param {string} res
    * @param {any} next
@@ -147,6 +150,7 @@ export default class Abstract {
    *    "version": "0",
    *  }
    *
+   * @memberof Abstract
    * @param {string} req
    * @param {string} res
    * @param {any} next

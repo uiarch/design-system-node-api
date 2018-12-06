@@ -1,11 +1,20 @@
 /**
- * @api Application Abstract Error class.
+ * Application AbstractError class.
  *
  * @export
  * @class AbstractError
  * @extends Error
  */
 export default class AbstractError extends Error {
+  /**
+   * AbstractError constructor.
+   *
+   * @constructor
+   * @memberof AbstractError
+   * @param {string} message - Error message to be formatted.
+   * @param {string} status - Error status
+   * @param {boolean} isPublic - Is pubic error or not?
+   */
   constructor(message, status, isPublic) {
     super(message);
 
