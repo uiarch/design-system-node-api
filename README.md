@@ -56,8 +56,18 @@ NodeJS API for managing design system. Can also be used as a API project boilerp
 
 * [API Doc](https://www.npmjs.com/package/apidoc)
   * __Description:__ Used to create API documentation.
-  * __Why is it used:__ This creates a documentation from API annotations in our source code.
+  * __Why is it used:__ This creates documentation from API annotations in our source code.
   * __Example:__ See examples on [apidoc](http://apidocjs.com/)
+
+* [Esdoc](https://www.npmjs.com/package/esdoc)
+  * __Description:__ Used to create Application documentation.
+  * __Why is it used:__ This creates documentation from doc block annotations in our source code.
+  * __Example:__ See examples on [apidoc](https://esdoc.org/)
+
+* [Esdoc Standard Plugin](https://www.npmjs.com/package/esdoc-standard-plugin)
+  * __Description:__ Glue plugin for esdoc standards.
+  * __Why is it used:__ Assist with esdoc for doc standards.
+  * __Example:__ See examples on [esdoc-standard-plugin](https://www.npmjs.com/package/esdoc-standard-plugin)
 
 * [Babel Core](https://www.npmjs.com/package/@babel/core)
   * __Description:__ Babel compiler core package.

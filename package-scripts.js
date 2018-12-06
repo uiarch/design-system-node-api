@@ -42,7 +42,7 @@ module.exports = {
     },
     doc: {
       description: 'Documenting The API.',
-      default: 'apidoc --debug -i api',
+      default: 'apidoc --debug -i api -o api-documentation',
     },
   },
 };
