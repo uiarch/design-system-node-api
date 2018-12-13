@@ -46,6 +46,11 @@ NodeJS API for managing design system. Can also be used as a API project boilerp
   * __Why is it used:__ Handles the relationships between data and handles schema validation and more.
   * __Example:__ See examples on [Mongoose](https://mongoosejs.com/)
 
+* [Raven](https://www.npmjs.com/package/raven)
+  * __Description:__ Raven-node - Sentry SDK for Node.js.
+  * __Why is it used:__ Used to store errors for lookup and alerting devs depending on severity.
+  * __Example:__ See examples on [raven](https://docs.sentry.io/clients/node/)
+
 ## Dev Dependencies
 ---
 
