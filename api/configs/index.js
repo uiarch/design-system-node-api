@@ -1,14 +1,7 @@
 require('dotenv').config();
 
 const DATABASE = {
-  MONGO_URL: process.env.MONGO_URL,
-  MONGO_DB_NAME: process.env.MONGO_DB_NAME,
-  MONGO_USER: process.env.MONGO_USER,
-  MONGO_PASSWORD: process.env.MONGO_PASSWORD,
-  MONGO_PORT: process.env.MONGO_PORT,
-  CONNECT_URL: `mongodb://${process.env.MONGO_USER}:${encodeURIComponent(process.env.MONGO_PASSWORD)}@${
-    process.env.MONGO_URL
-  }:${process.env.MONGO_PORT}/${process.env.MONGO_DB_NAME}`,
+  CONNECT_URL: process.env.MONGO_CONNECTION_STRING,
 };
 
 const APP_CONFIG = {
