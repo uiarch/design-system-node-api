@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">api/controllers/AbstractController.js | styleguide-api-node</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="NodeJS Api for managing styleguide admin section"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="styleguide-api-node"><meta property="twitter:description" content="NodeJS Api for managing styleguide admin section"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-app">app</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers">controllers</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/controllers/AbstractController.js~Abstract.html">Abstract</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/controllers/ColorController.js~ColorController.html">ColorController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/controllers/IconController.js~IconController.html">IconController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/controllers/SizeController.js~SizeController.html">SizeController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/controllers/UserController.js~UserController.html">UserController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/controllers/VersionController.js~VersionController.html">VersionController</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#database">database</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/database/Connect.js~Connect.html">Connect</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#models">models</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Color">Color</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Icon">Icon</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Size">Size</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-User">User</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Version">Version</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/services/APIError.js~APIError.html">APIError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/services/AbstractError.js~AbstractError.html">AbstractError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/services/AbstractLogger.js~AbstractLogger.html">AbstractLogger</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/services/FormatError.js~FormatError.html">FormatError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/services/Logger.js~Logger.html">Logger</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ALERT">ALERT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CRITICAL">CRITICAL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DEBUG">DEBUG</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-EMERGENCY">EMERGENCY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERROR">ERROR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INFO">INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NOTICE">NOTICE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WARNING">WARNING</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">api/controllers/AbstractController.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import HTTPStatus from &apos;http-status&apos;;
+
+/**
+ * @api Application Abstract Controller class.
+ *
+ * @export
+ * @class Abstract
+ */
+export default class Abstract {
+  /**
+   * Abstract constructor.
+   *
+   * @constructor
+   * @memberof Abstract
+   * @param {object} model - DI model required for CRUD methods.
+   */
+  constructor(model) {
+    // Detect whether this constructor was called using the new operator.
+    // new.target returns a reference to the constructor or function.
+    if (new.target === Abstract) {
+      throw new TypeError(&apos;Cannot construct Abstract instances directly.&apos;);
+    }
+
+    // Cannot operate without a model so lets throw an error immediately if one is not provided.
+    if (model === undefined || this.isEmpty(model)) {
+      throw new TypeError(&apos;A model object is required.&apos;);
+    }
+
+    this._model = model;
+    this.getByName = this.getByName.bind(this);
+    this.getList = this.getList.bind(this);
+    this.create = this.create.bind(this);
+  }
+
+  /**
+   * Test if an object is empty.
+   *
+   * @memberof Abstract
+   * @param {object} obj to be tested.
+   * @return {boolean}
+   */
+  isEmpty(obj) {
+    for (const key in obj) {
+      if (obj.hasOwnProperty(key)) return false;
+    }
+    return true;
+  }
+
+  /**
+   * @api {get} /endpoint/:name (http://example.com/api/icons/person-icon)
+   * @apiDescription Get single item by name.
+   * @apiName getByName
+   * @apiGroup Abstract
+   * @apiParam {string} name
+   * @apiErrorExample {json} Error
+   *
+   * HTTP/1.1 404 Not Found
+   *
+   * @apiSuccessExample Success-Response:
+   *
+   * HTTP/1.1 200 OK
+   *
+   *  {
+   *    &quot;tags&quot;: [&quot;solid&quot;, &quot;wire&quot;],
+   *    &quot;versions&quot;: [],
+   *    &quot;name&quot;: &quot;user-icon&quot;,
+   *    &quot;version&quot;: &quot;0&quot;,
+   *  }
+   *
+   * @memberof Abstract
+   * @param {string} req
+   * @param {string} res
+   * @param {any} next
+   * @return {json}
+   */
+  async getByName(req, res) {
+    try {
+      const data = await this._model.findOne({name: req.params.name});
+      return res.status(HTTPStatus.OK).json(data);
+    } catch (error) {
+      return res.status(HTTPStatus.BAD_REQUEST).json(error);
+    }
+  }
+
+  /**
+   * @api {get} /endpoint Get list of items (http://example.com/api/icons)
+   * @apiDescription Get a list of items
+   * @apiName getList
+   * @apiGroup Abstract
+   * @apiErrorExample {json} Error
+   *
+   * HTTP/1.1 404 Not Found
+   *
+   * @apiSuccessExample Success-Response:
+   *
+   * HTTP/1.1 200 OK
+   *
+   * [
+   *  {
+   *    &quot;tags&quot;: [&quot;solid&quot;, &quot;wire&quot;],
+   *    &quot;versions&quot;: [],
+   *    &quot;name&quot;: &quot;user-icon&quot;,
+   *    &quot;version&quot;: &quot;0&quot;,
+   *  },
+   *  {
+   *    &quot;tags&quot;: [&quot;solid&quot;, &quot;wire&quot;],
+   *    &quot;versions&quot;: [],
+   *    &quot;name&quot;: &quot;lock-icon&quot;,
+   *    &quot;version&quot;: &quot;0&quot;,
+   *  }
+   * ]
+   *
+   * @memberof Abstract
+   * @param {string} req
+   * @param {string} res
+   * @param {any} next
+   * @return {json}
+   */
+  async getList(req, res) {
+    try {
+      const data = await this._model.find();
+      return res.status(HTTPStatus.OK).json(data);
+    } catch (error) {
+      return res.status(HTTPStatus.BAD_REQUEST).json(error);
+    }
+  }
+
+  /**
+   * @api {post} /endpoint Create item (http://example.com/api/icons)
+   * @apiDescription Create item requires body obj.
+   * @apiName create
+   * @apiGroup Abstract
+   *
+   * @apiErrorExample {json} Error
+   *
+   * HTTP/1.1 404 Not Found
+   *
+   * @apiSuccessExample Success-Response:
+   * HTTP/1.1 200 OK
+   *
+   *
+   * @apiParam (Body) {Object} name Icon name.
+   *
+   * @apiParamExample {json} Post-Example:
+   *
+   *  {
+   *    &quot;tags&quot;: [&quot;solid&quot;, &quot;wire&quot;],
+   *    &quot;versions&quot;: [],
+   *    &quot;name&quot;: &quot;user-icon&quot;,
+   *    &quot;version&quot;: &quot;0&quot;,
+   *  }
+   *
+   * @memberof Abstract
+   * @param {string} req
+   * @param {string} res
+   * @param {any} next
+   * @return {json}
+   */
+  async create(req, res) {
+    try {
+      const body = req.body;
+      const data = await this._model.create(body);
+      return res.status(HTTPStatus.CREATED).json(data);
+    } catch (error) {
+      return res.status(HTTPStatus.BAD_REQUEST).json(error);
+    }
+  }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

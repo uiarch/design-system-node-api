@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | styleguide-api-node</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="NodeJS Api for managing styleguide admin section"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="styleguide-api-node"><meta property="twitter:description" content="NodeJS Api for managing styleguide admin section"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-app">app</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers">controllers</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/controllers/AbstractController.js~Abstract.html">Abstract</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/controllers/ColorController.js~ColorController.html">ColorController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/controllers/IconController.js~IconController.html">IconController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/controllers/SizeController.js~SizeController.html">SizeController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/controllers/UserController.js~UserController.html">UserController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/controllers/VersionController.js~VersionController.html">VersionController</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#database">database</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/database/Connect.js~Connect.html">Connect</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#models">models</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Color">Color</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Icon">Icon</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Size">Size</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-User">User</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Version">Version</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/services/APIError.js~APIError.html">APIError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/services/AbstractError.js~AbstractError.html">AbstractError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/services/AbstractLogger.js~AbstractLogger.html">AbstractLogger</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/services/FormatError.js~FormatError.html">FormatError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/api/services/Logger.js~Logger.html">Logger</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ALERT">ALERT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CRITICAL">CRITICAL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DEBUG">DEBUG</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-EMERGENCY">EMERGENCY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERROR">ERROR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INFO">INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NOTICE">NOTICE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WARNING">WARNING</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="design-system-nodejs-api">Design System NodeJS API</h1><p><a href="#contributors"><img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square" alt="All Contributors"></a></p>
+<p>NodeJS API for managing design system. Can also be used as a API project boilerplate.</p>
+<h2 id="dependencies">Dependencies</h2><hr>
+<ul>
+<li><p><a href="http://bluebirdjs.com/">Bluebird</a></p>
+<ul>
+<li><strong>Description:</strong> Promise library used with Mongoose (ODM).</li>
+<li><strong>Why is it used:</strong> Replaces Mongoose&apos;s own promise library (faster, better tested, and has more utility functions available).</li>
+<li><strong>Example:</strong> See examples on <a href="http://bluebirdjs.com/docs/why-promises.html">Bluebirds site</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/body-parser">BodyParser</a></p>
+<ul>
+<li><strong>Description:</strong> NodeJS body parsing middleware.</li>
+<li><strong>Why is it used:</strong> Used for parsing Json data in our API calls and parsing urlencoded bodies.</li>
+<li><strong>Example:</strong> See examples on <a href="https://www.npmjs.com/package/body-parser">body-parser</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/compression">Compression</a></p>
+<ul>
+<li><strong>Description:</strong> Gzip compression middleware.</li>
+<li><strong>Why is it used:</strong> Can greatly decrease the size of the response body and increase the speed of our web app.</li>
+<li><strong>Example:</strong> See examples on <a href="https://www.npmjs.com/package/compression">compression</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/cors">Cors</a></p>
+<ul>
+<li><strong>Description:</strong> NodeJS package that enables <code>CORS</code> for ExpressJS.</li>
+<li><strong>Why is it used:</strong> Allows AJAX requests to skip the Same-origin policy and access resources from remote hosts.</li>
+<li><strong>Example:</strong> Header returns <code>Access-Control-Allow-Origin: *</code> when enabled. See examples on <a href="https://www.npmjs.com/package/cors">cors</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/dotenv">DotEnv</a></p>
+<ul>
+<li><strong>Description:</strong> Loads environment variables from .env file.</li>
+<li><strong>Why is it used:</strong> To store configs in a single location that the app can read from and so this info is not stored in version control.</li>
+<li><strong>Example:</strong> Checkout the <code>.env.example</code> to see the configs.</li>
+</ul>
+</li>
+<li><p><a href="https://expressjs.com">Express</a></p>
+<ul>
+<li><strong>Description:</strong> NodeJS web application framework.</li>
+<li><strong>Why is it used:</strong> Provides a nice library of web application features that we can use to build our app without obscuring NodeJS.</li>
+<li><strong>Example:</strong> See examples on <a href="https://expressjs.com/en/starter/installing.html">expressJs</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/http-status">HTTP Status</a></p>
+<ul>
+<li><strong>Description:</strong> Predfined HTTP status codes for NodeJS.</li>
+<li><strong>Why is it used:</strong> This is used in our API controllers for returning our http status on success or error.</li>
+<li><strong>Example:</strong> See examples on <a href="https://www.npmjs.com/package/http-status">http-status</a></li>
+</ul>
+</li>
+<li><p><a href="https://mongoosejs.com/">Mongoose</a></p>
+<ul>
+<li><strong>Description:</strong> Mongoose (ODM) Object Data Modeling library for NodeJS and MongoDB.</li>
+<li><strong>Why is it used:</strong> Handles the relationships between data and handles schema validation and more.</li>
+<li><strong>Example:</strong> See examples on <a href="https://mongoosejs.com/">Mongoose</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="dev-dependencies">Dev Dependencies</h2><hr>
+<ul>
+<li><p><a href="https://www.npmjs.com/package/all-contributors-cli">All Contributors CLI</a></p>
+<ul>
+<li><strong>Description:</strong> Used to implement the <code>All Contributors Spec</code>.</li>
+<li><strong>Why is it used:</strong> Helps to automate the <code>All Contributors Spec</code> creates our <code>.all-contributorsrc</code> file and fill in contributor information. Also writes contributor info to <code>README.md</code>.</li>
+<li><strong>Example:</strong> See examples on <a href="https://www.npmjs.com/package/all-contributors-cli">all-contributors-cli</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/apidoc">API Doc</a></p>
+<ul>
+<li><strong>Description:</strong> Used to create API documentation.</li>
+<li><strong>Why is it used:</strong> This creates documentation from API annotations in our source code.</li>
+<li><strong>Example:</strong> See examples on <a href="http://apidocjs.com/">apidoc</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/esdoc">Esdoc</a></p>
+<ul>
+<li><strong>Description:</strong> Used to create Application documentation.</li>
+<li><strong>Why is it used:</strong> This creates documentation from doc block annotations in our source code.</li>
+<li><strong>Example:</strong> See examples on <a href="https://esdoc.org/">apidoc</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/esdoc-standard-plugin">Esdoc Standard Plugin</a></p>
+<ul>
+<li><strong>Description:</strong> Glue plugin for esdoc standards.</li>
+<li><strong>Why is it used:</strong> Assist with esdoc for doc standards.</li>
+<li><strong>Example:</strong> See examples on <a href="https://www.npmjs.com/package/esdoc-standard-plugin">esdoc-standard-plugin</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/@babel/core">Babel Core</a></p>
+<ul>
+<li><strong>Description:</strong> Babel compiler core package.</li>
+<li><strong>Why is it used:</strong> Used as part of webpack in our build srcripts to compile <code>ECMAScript 2015+</code> into browser supported versions of JavaScript.</li>
+<li><strong>Example:</strong> See examples on <a href="https://www.npmjs.com/package/@babel/core">@babel/core</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/babel-jest">Babel Jest</a></p>
+<ul>
+<li><strong>Description:</strong> Allows transpiling JavaScript test with <code>Babel</code> and <code>WebPack</code>.</li>
+<li><strong>Why is it used:</strong> So we can write es6 &gt; in our tests.</li>
+<li><strong>Example:</strong> See examples on <a href="https://www.npmjs.com/package/babel-jest">babel-jest</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/babel-loader">Babel Loader</a></p>
+<ul>
+<li><strong>Description:</strong> Allows transpiling JavaScript with <code>Babel</code> and <code>WebPack</code>.</li>
+<li><strong>Why is it used:</strong> <code>WebPack</code> enables the use of loaders to preprocess files. Allows us to bundle our static resources.</li>
+<li><strong>Example:</strong> See examples on <a href="https://www.npmjs.com/package/babel-loader">babel-loader</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/@babel/preset-env">Babel Preset Env </a></p>
+<ul>
+<li><strong>Description:</strong> Allows us to use the latest ECMA Script syntax without constantly chaning the supported versions.</li>
+<li><strong>Why is it used:</strong>  Checks target environments against their mappings to compile a list of plugins and passes it to <code>Babel</code>.</li>
+<li><strong>Example:</strong> See examples on <a href="https://babeljs.io/docs/en/next/babel-preset-env.html">@babel/preset-env</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/eslint">EsLint</a></p>
+<ul>
+<li><strong>Description:</strong> JavaScript syntax linter.</li>
+<li><strong>Why is it used:</strong> Lints our JavaScript syntax.</li>
+<li><strong>Example:</strong> See examples on <a href="https://www.npmjs.com/package/eslint">eslint</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/eslint-config-google">EsLint Config Google</a></p>
+<ul>
+<li><strong>Description:</strong> <code>Google&apos;s JavaScript Styleguide</code>.</li>
+<li><strong>Why is it used:</strong> Our eslint configs extends these to define our <code>JavaScript styleguide</code> when linting.</li>
+<li><strong>Example:</strong> See examples on <a href="https://www.npmjs.com/package/eslint-config-google">eslint-config-google</a></li>
+<li><strong>Docs:</strong> <a href="https://google.github.io/styleguide/jsguide.html">Google JavaScript Styleguide Docs</a></li>
+</ul>
+</li>
+<li><p><a href="https://jestjs.io/">Jest</a></p>
+<ul>
+<li><strong>Description:</strong> JavaScript testing library.</li>
+<li><strong>Why is it used:</strong> Used to run tests, generate coverage and more.</li>
+<li><strong>Example:</strong> See examples on <a href="https://www.npmjs.com/package/jest">jest</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/nps">NPS Scripts</a></p>
+<ul>
+<li><strong>Description:</strong> Allows us to use npm scripts in a much cleaner way without bloating the package.json file.</li>
+<li><strong>Why is it used:</strong> Needed to seperate all of our project build scripts without adding another dependency like gulp. Allows us to use npm scripts and not in the package file so we can organize it, and also allows us to comment each script.</li>
+<li><strong>Example:</strong> Checkout the <code>package-scripts.js</code> to see all the tasks this is handling for this project.</li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/nps-utils">NPS Scripts Utils</a></p>
+<ul>
+<li><strong>Description:</strong> Has several utility functions to help when using nps scripts.</li>
+<li><strong>Why is it used:</strong> Wanted to use this so we could use it&apos;s utility methods within our nps tasks file.</li>
+<li><strong>Example:</strong> Checkout the <a href="https://doc.esdoc.org/github.com/kentcdodds/nps-utils/">API Docs</a> for list of all the utility methods.</li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/path">Path</a></p>
+<ul>
+<li><strong>Description:</strong> Utility for working with file and directory paths in NodeJS.</li>
+<li><strong>Why is it used:</strong> <code>Webpack</code> uses this for defining project paths.</li>
+<li><strong>Example:</strong> See examples on <a href="https://nodejs.org/docs/latest/api/path.html">path</a></li>
+</ul>
+</li>
+<li><p><a href="">Regenerator Runtime</a></p>
+<ul>
+<li><strong>Description:</strong> From <a href="https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime">GitHub</a> <code>Standalone runtime for Regenerator-compiled generator and async functions</code></li>
+<li><strong>Why is it used:</strong> Adds support in WebPack for async functions.</li>
+<li><strong>Example:</strong> See examples on <a href="https://www.npmjs.com/package/regenerator-runtime">regenerator-runtime</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/webpack">Webpack</a></p>
+<ul>
+<li><strong>Description:</strong> Module bundler for bundling JavaScript files for usage in a browser.</li>
+<li><strong>Why is it used:</strong> Bundles our <code>API</code> files into <code>www</code> dir.</li>
+<li><strong>Example:</strong> See examples on <a href="https://webpack.js.org/concepts/">webpack</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.npmjs.com/package/webpack-cli">Webpack CLI</a></p>
+<ul>
+<li><strong>Description:</strong> CLI tool used for setting up Webpack projects.</li>
+<li><strong>Why is it used:</strong> Runds our webpack commands from build scripts.</li>
+<li><strong>Example:</strong> See our <code>package-scripts.js</code> where commands are being executed. Also see <a href="https://webpack.js.org/guides/getting-started/">webpack-cli</a></li>
+</ul>
+</li>
+<li><p><a href="">Webpack Node Externals</a></p>
+<ul>
+<li><strong>Description:</strong> Used to exclude modules from bundling.</li>
+<li><strong>Why is it used:</strong> Ignore all modules in <code>node_modules</code> directory.</li>
+<li><strong>Example:</strong> See examples on <a href="https://www.npmjs.com/package/webpack-node-externals">webpack-node-externals</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="was-all-this----necessary-">Was all this ^^ necessary?</h3><ul>
+<li>No not entirely, but by documenting all of my dependencies I was able to remove about 50% of what I had installed and narrow it down by asking my self why I was using it and how important was it.</li>
+</ul>
+<h2 id="installation">Installation</h2><hr>
+<ul>
+<li>Clone this repository <code>git clone https://github.com/uiarch/design-system-node-api.git</code>.</li>
+<li>Cd into app <code>cd design-system-node-api</code>.</li>
+<li>Run <code>npm install</code>.</li>
+<li>Follow <a href="#install-mongodb">MongoDB Instructions below</a>.</li>
+<li>Run <code>cp .example.env .env</code> and fill in values.</li>
+<li>Run <code>npm run build:dev</code> and then <code>npm run watch:dev</code> files will be compiled and ran from <code>www</code> dir.</li>
+<li>Go to <code>localhost:&lt;.env specified port&gt;</code>.</li>
+</ul>
+<h2 id="install-mongodb">Install MongoDB</h2><hr>
+<ul>
+<li>In your terminal type <code>brew update</code>.</li>
+<li>After homebrew is finished updating run <code>brew install mongodb</code>.</li>
+<li>Start the MongoDB server <code>mongod</code>.</li>
+<li>In another terminal window run mongo shell by typing <code>mongo</code> which is an application to access data in MongoDB.</li>
+<li><p><strong>@todo add docs for creating auth user in MongoDB</strong></p>
+</li>
+<li><p>Connecting to MongoDB</p>
+<ul>
+<li>Copy <code>.env.example</code> to <code>.env</code></li>
+<li><code>MONGO_URL=localhost</code></li>
+<li><code>MONGO_DB_NAME=dbName</code></li>
+<li><code>MONGO_USER=username</code></li>
+<li><code>MONGO_PASSWORD=password</code></li>
+<li><code>MONGO_PORT=27017</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="running-this-project">Running This Project</h2><hr>
+<ul>
+<li>Uses <a href="https://www.npmjs.com/package/nps">nps</a> (Node Package Scripts) dependency for handling our tasks.</li>
+<li>Build for production, cleans and compiles code to <code>www</code> dir then compresses JS.<ul>
+<li><code>npm run build:prod</code> - <code>&quot;nps build&quot;</code></li>
+</ul>
+</li>
+<li>Build and run server for development, compiles code to <code>www</code> dir does not compress JS.<ul>
+<li><code>npm run build:dev</code> - <code>&quot;nps dev.build&quot;</code></li>
+</ul>
+</li>
+<li>Watch and compile code and run node server.<ul>
+<li><code>npm run watch:dev</code> - <code>nps dev</code></li>
+</ul>
+</li>
+<li>Run <code>eslint</code> which extends <code>eslint-config-google</code>.<ul>
+<li><code>npm run lint</code> - <code>nps lint</code></li>
+</ul>
+</li>
+<li>Run <code>eslint</code> fix.<ul>
+<li><code>lint:fix</code> - <code>nps lint.fix</code></li>
+</ul>
+</li>
+<li>Follows the all-contributors specification.<ul>
+<li>Run <code>contributors:add</code> which is used to add yourself to the contributors list. See <a href="https://www.npmjs.com/package/all-contributors-cli">all-contributors</a> for more details and usage.<ul>
+<li><code>npm run contributors:add -- &lt;github username&gt; &lt;contrib type&gt;</code></li>
+<li><code>npm run contributors:generate</code> generates contributors in readme.md.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Uses <a href="https://jestjs.io/">jest</a> library for testing.<ul>
+<li>To run test simply run.<ul>
+<li><code>npm run test</code>.</li>
+</ul>
+</li>
+<li>To generate test coverage run.<ul>
+<li><code>npm run test:coverage</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Uses <a href="http://apidocjs.com/">apidoc</a> to create inline documentation from API annotations.<ul>
+<li>To generate documentation run.<ul>
+<li><code>npm run doc</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="api-examples">API Examples</h2><hr>
+<h3 id="icons">Icons</h3><ul>
+<li><strong><code>cURL</code> retrieve icon by name example:</strong><pre><code><code class="source-code prettyprint">  curl -X GET \
+  http://localhost:8081/api/icons/user-icon \
+  -H &apos;cache-control: no-cache&apos;</code>
+</code></pre></li>
+<li><strong><code>cURL</code> retrieve list of icons Example:</strong><pre><code><code class="source-code prettyprint">  curl -X GET \
+  http://localhost:8081/api/icons \
+  -H &apos;cache-control: no-cache&apos;</code>
+</code></pre></li>
+<li><strong><code>cURL</code> create icon example:</strong><pre><code><code class="source-code prettyprint">  curl -X POST \
+    http://localhost:8081/api/icons \
+    -H &apos;Content-Type: application/json&apos; \
+    -H &apos;cache-control: no-cache&apos; \
+    -d &apos;{
+    &quot;name&quot;: &quot;user-icon&quot;,
+    &quot;tags&quot;: [&quot;solid&quot;, &quot;wire&quot;],
+    &quot;versions&quot;: [1.2, 1.5]
+  }&apos;</code>
+</code></pre></li>
+</ul>
+<h2 id="contributors">Contributors</h2><hr>
+<p><!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+</p>
+<p><!-- prettier-ignore -->
+</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="http://theuiarch.com"><img src="https://avatars0.githubusercontent.com/u/5857345?v=4" width="100px;"><br>&lt;sub&gt;&lt;b&gt;Anthony Allen&lt;/b&gt;&lt;/sub&gt;</a><br><a href="https://github.com/uiarch/design-system-node-api/commits?author=uiarch" title="Code">&#x1F4BB;</a> <a href="https://github.com/uiarch/design-system-node-api/commits?author=uiarch" title="Documentation">&#x1F4D6;</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p><!-- ALL-CONTRIBUTORS-LIST:END --></p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "extends": ["google"],
+  "env": {
+    "node": true
+  },
+  "plugins": [],
+  "rules": {
+    "no-unused-vars": "error",
+    "no-floating-decimal": "error",
+    "max-len": ["error", 120],
+    "no-var": "error",
+    "curly": "error",
+    "no-new": "warn",
+    "arrow-parens": "off",
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "indent": ["error", 2],
+    "prefer-arrow-callback": "error",
+    "require-jsdoc": "off"
+  }
+}

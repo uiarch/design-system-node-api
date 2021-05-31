@@ -1,0 +1,3083 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "api/.external-ecmascript.js",
+    "static": true,
+    "longname": "api/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "api/App.js",
+    "content": "import express from 'express';\nimport bodyParser from 'body-parser';\nimport cors from 'cors';\nimport compression from 'compression';\nimport configs from './configs';\nimport Connect from './database/connect';\nimport ApiRoutes from './routes';\nimport Logger from './services/Logger';\n\nconst logger = new Logger();\n\n// Connect our Database.\nconst dbConnect = new Connect(configs);\ndbConnect.initialize();\n\nconst app = express();\napp.use(cors());\napp.use(compression());\napp.use(bodyParser.urlencoded({extended: true}));\napp.use(bodyParser.json());\napp.use('/api', ApiRoutes);\n\n// We need this to make sure we don't run a second instance\nif (!module.parent) {\n  app.listen(configs.APP_CONFIG.APP_PORT, err => {\n    if (err) {\n      console.log('Server Cannot run!');\n    } else {\n      console.log('//========================================');\n      console.log(`// Server running on port number: ${configs.APP_CONFIG.APP_PORT}`);\n      console.log('// Environment Prod: ', configs.APP_CONFIG.PROD_ENV);\n      console.log('//========================================');\n    }\n  });\n}\n\nexport default app;\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/App.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "logger",
+    "memberof": "api/App.js",
+    "static": true,
+    "longname": "api/App.js~logger",
+    "access": "public",
+    "export": false,
+    "importPath": "styleguide-api-node/api/App.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "api/services/Logger.js~Logger"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "dbConnect",
+    "memberof": "api/App.js",
+    "static": true,
+    "longname": "api/App.js~dbConnect",
+    "access": "public",
+    "export": false,
+    "importPath": "styleguide-api-node/api/App.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "api/database/Connect.js~Connect"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "app",
+    "memberof": "api/App.js",
+    "static": true,
+    "longname": "api/App.js~app",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/App.js",
+    "importStyle": "app",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "api/configs/index.js",
+    "content": "require('dotenv').config();\n\nconst DATABASE = {\n  MONGO_URL: process.env.MONGO_URL,\n  MONGO_DB_NAME: process.env.MONGO_DB_NAME,\n  MONGO_USER: process.env.MONGO_USER,\n  MONGO_PASSWORD: process.env.MONGO_PASSWORD,\n  MONGO_PORT: process.env.MONGO_PORT,\n  CONNECT_URL: `mongodb://${process.env.MONGO_USER}:${encodeURIComponent(process.env.MONGO_PASSWORD)}@${\n    process.env.MONGO_URL\n  }:${process.env.MONGO_PORT}/${process.env.MONGO_DB_NAME}`,\n};\n\nconst APP_CONFIG = {\n  ENV: process.env.NODE_ENV || 'development',\n  APP_PORT: process.env.APP_PORT,\n  PROD_ENV: process.env.PROD_ENV,\n  MONGOOSE_DEBUG: process.env.MONGOOSE_DEBUG,\n};\n\nconst APP_LOGGING = {SENTRY_DSN: process.env.SENTRY_DSN};\n\nexport default {\n  DATABASE,\n  APP_CONFIG,\n  APP_LOGGING,\n};\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/configs/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "DATABASE",
+    "memberof": "api/configs/index.js",
+    "static": true,
+    "longname": "api/configs/index.js~DATABASE",
+    "access": "public",
+    "export": false,
+    "importPath": "styleguide-api-node/api/configs/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"MONGO_URL\": *, \"MONGO_DB_NAME\": *, \"MONGO_USER\": *, \"MONGO_PASSWORD\": *, \"MONGO_PORT\": *, \"CONNECT_URL\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "APP_CONFIG",
+    "memberof": "api/configs/index.js",
+    "static": true,
+    "longname": "api/configs/index.js~APP_CONFIG",
+    "access": "public",
+    "export": false,
+    "importPath": "styleguide-api-node/api/configs/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"ENV\": *, \"APP_PORT\": *, \"PROD_ENV\": *, \"MONGOOSE_DEBUG\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "APP_LOGGING",
+    "memberof": "api/configs/index.js",
+    "static": true,
+    "longname": "api/configs/index.js~APP_LOGGING",
+    "access": "public",
+    "export": false,
+    "importPath": "styleguide-api-node/api/configs/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"SENTRY_DSN\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "name": "api/controllers/AbstractController.js",
+    "content": "import HTTPStatus from 'http-status';\n\n/**\n * @api Application Abstract Controller class.\n *\n * @export\n * @class Abstract\n */\nexport default class Abstract {\n  /**\n   * Abstract constructor.\n   *\n   * @constructor\n   * @memberof Abstract\n   * @param {object} model - DI model required for CRUD methods.\n   */\n  constructor(model) {\n    // Detect whether this constructor was called using the new operator.\n    // new.target returns a reference to the constructor or function.\n    if (new.target === Abstract) {\n      throw new TypeError('Cannot construct Abstract instances directly.');\n    }\n\n    // Cannot operate without a model so lets throw an error immediately if one is not provided.\n    if (model === undefined || this.isEmpty(model)) {\n      throw new TypeError('A model object is required.');\n    }\n\n    this._model = model;\n    this.getByName = this.getByName.bind(this);\n    this.getList = this.getList.bind(this);\n    this.create = this.create.bind(this);\n  }\n\n  /**\n   * Test if an object is empty.\n   *\n   * @memberof Abstract\n   * @param {object} obj to be tested.\n   * @return {boolean}\n   */\n  isEmpty(obj) {\n    for (const key in obj) {\n      if (obj.hasOwnProperty(key)) return false;\n    }\n    return true;\n  }\n\n  /**\n   * @api {get} /endpoint/:name (http://example.com/api/icons/person-icon)\n   * @apiDescription Get single item by name.\n   * @apiName getByName\n   * @apiGroup Abstract\n   * @apiParam {string} name\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   *\n   * HTTP/1.1 200 OK\n   *\n   *  {\n   *    \"tags\": [\"solid\", \"wire\"],\n   *    \"versions\": [],\n   *    \"name\": \"user-icon\",\n   *    \"version\": \"0\",\n   *  }\n   *\n   * @memberof Abstract\n   * @param {string} req\n   * @param {string} res\n   * @param {any} next\n   * @return {json}\n   */\n  async getByName(req, res) {\n    try {\n      const data = await this._model.findOne({name: req.params.name});\n      return res.status(HTTPStatus.OK).json(data);\n    } catch (error) {\n      return res.status(HTTPStatus.BAD_REQUEST).json(error);\n    }\n  }\n\n  /**\n   * @api {get} /endpoint Get list of items (http://example.com/api/icons)\n   * @apiDescription Get a list of items\n   * @apiName getList\n   * @apiGroup Abstract\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   *\n   * HTTP/1.1 200 OK\n   *\n   * [\n   *  {\n   *    \"tags\": [\"solid\", \"wire\"],\n   *    \"versions\": [],\n   *    \"name\": \"user-icon\",\n   *    \"version\": \"0\",\n   *  },\n   *  {\n   *    \"tags\": [\"solid\", \"wire\"],\n   *    \"versions\": [],\n   *    \"name\": \"lock-icon\",\n   *    \"version\": \"0\",\n   *  }\n   * ]\n   *\n   * @memberof Abstract\n   * @param {string} req\n   * @param {string} res\n   * @param {any} next\n   * @return {json}\n   */\n  async getList(req, res) {\n    try {\n      const data = await this._model.find();\n      return res.status(HTTPStatus.OK).json(data);\n    } catch (error) {\n      return res.status(HTTPStatus.BAD_REQUEST).json(error);\n    }\n  }\n\n  /**\n   * @api {post} /endpoint Create item (http://example.com/api/icons)\n   * @apiDescription Create item requires body obj.\n   * @apiName create\n   * @apiGroup Abstract\n   *\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   * HTTP/1.1 200 OK\n   *\n   *\n   * @apiParam (Body) {Object} name Icon name.\n   *\n   * @apiParamExample {json} Post-Example:\n   *\n   *  {\n   *    \"tags\": [\"solid\", \"wire\"],\n   *    \"versions\": [],\n   *    \"name\": \"user-icon\",\n   *    \"version\": \"0\",\n   *  }\n   *\n   * @memberof Abstract\n   * @param {string} req\n   * @param {string} res\n   * @param {any} next\n   * @return {json}\n   */\n  async create(req, res) {\n    try {\n      const body = req.body;\n      const data = await this._model.create(body);\n      return res.status(HTTPStatus.CREATED).json(data);\n    } catch (error) {\n      return res.status(HTTPStatus.BAD_REQUEST).json(error);\n    }\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/controllers/AbstractController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 57,
+    "kind": "class",
+    "name": "Abstract",
+    "memberof": "api/controllers/AbstractController.js",
+    "static": true,
+    "longname": "api/controllers/AbstractController.js~Abstract",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/controllers/AbstractController.js",
+    "importStyle": "Abstract",
+    "description": "",
+    "lineNumber": 9,
+    "unknown": [
+      {
+        "tagName": "@api",
+        "tagValue": "Application Abstract Controller class."
+      },
+      {
+        "tagName": "@class",
+        "tagValue": "Abstract"
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 58,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "api/controllers/AbstractController.js~Abstract",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/controllers/AbstractController.js~Abstract#constructor",
+    "access": "public",
+    "description": "Abstract constructor.",
+    "lineNumber": 17,
+    "unknown": [
+      {
+        "tagName": "@constructor",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "model",
+        "description": "DI model required for CRUD methods."
+      }
+    ]
+  },
+  {
+    "__docId__": 59,
+    "kind": "member",
+    "name": "_model",
+    "memberof": "api/controllers/AbstractController.js~Abstract",
+    "static": false,
+    "longname": "api/controllers/AbstractController.js~Abstract#_model",
+    "access": "private",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "method",
+    "name": "isEmpty",
+    "memberof": "api/controllers/AbstractController.js~Abstract",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/controllers/AbstractController.js~Abstract#isEmpty",
+    "access": "public",
+    "description": "Test if an object is empty.",
+    "lineNumber": 42,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "obj",
+        "description": "to be tested."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "getByName",
+    "memberof": "api/controllers/AbstractController.js~Abstract",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "api/controllers/AbstractController.js~Abstract#getByName",
+    "access": "public",
+    "description": "",
+    "lineNumber": 76,
+    "unknown": [
+      {
+        "tagName": "@api",
+        "tagValue": "{get} /endpoint/:name (http://example.com/api/icons/person-icon)"
+      },
+      {
+        "tagName": "@apiDescription",
+        "tagValue": "Get single item by name."
+      },
+      {
+        "tagName": "@apiName",
+        "tagValue": "getByName"
+      },
+      {
+        "tagName": "@apiGroup",
+        "tagValue": "Abstract"
+      },
+      {
+        "tagName": "@apiParam",
+        "tagValue": "{string} name"
+      },
+      {
+        "tagName": "@apiErrorExample",
+        "tagValue": "{json} Error\n\nHTTP/1.1 404 Not Found"
+      },
+      {
+        "tagName": "@apiSuccessExample",
+        "tagValue": "Success-Response:\n\nHTTP/1.1 200 OK\n\n {\n   \"tags\": [\"solid\", \"wire\"],\n   \"versions\": [],\n   \"name\": \"user-icon\",\n   \"version\": \"0\",\n }"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "next",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "json"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "method",
+    "name": "getList",
+    "memberof": "api/controllers/AbstractController.js~Abstract",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "api/controllers/AbstractController.js~Abstract#getList",
+    "access": "public",
+    "description": "",
+    "lineNumber": 119,
+    "unknown": [
+      {
+        "tagName": "@api",
+        "tagValue": "{get} /endpoint Get list of items (http://example.com/api/icons)"
+      },
+      {
+        "tagName": "@apiDescription",
+        "tagValue": "Get a list of items"
+      },
+      {
+        "tagName": "@apiName",
+        "tagValue": "getList"
+      },
+      {
+        "tagName": "@apiGroup",
+        "tagValue": "Abstract"
+      },
+      {
+        "tagName": "@apiErrorExample",
+        "tagValue": "{json} Error\n\nHTTP/1.1 404 Not Found"
+      },
+      {
+        "tagName": "@apiSuccessExample",
+        "tagValue": "Success-Response:\n\nHTTP/1.1 200 OK\n\n[\n {\n   \"tags\": [\"solid\", \"wire\"],\n   \"versions\": [],\n   \"name\": \"user-icon\",\n   \"version\": \"0\",\n },\n {\n   \"tags\": [\"solid\", \"wire\"],\n   \"versions\": [],\n   \"name\": \"lock-icon\",\n   \"version\": \"0\",\n }\n]"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "next",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "json"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "method",
+    "name": "create",
+    "memberof": "api/controllers/AbstractController.js~Abstract",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "api/controllers/AbstractController.js~Abstract#create",
+    "access": "public",
+    "description": "",
+    "lineNumber": 159,
+    "unknown": [
+      {
+        "tagName": "@api",
+        "tagValue": "{post} /endpoint Create item (http://example.com/api/icons)"
+      },
+      {
+        "tagName": "@apiDescription",
+        "tagValue": "Create item requires body obj."
+      },
+      {
+        "tagName": "@apiName",
+        "tagValue": "create"
+      },
+      {
+        "tagName": "@apiGroup",
+        "tagValue": "Abstract"
+      },
+      {
+        "tagName": "@apiErrorExample",
+        "tagValue": "{json} Error\n\nHTTP/1.1 404 Not Found"
+      },
+      {
+        "tagName": "@apiSuccessExample",
+        "tagValue": "Success-Response:\nHTTP/1.1 200 OK"
+      },
+      {
+        "tagName": "@apiParam",
+        "tagValue": "(Body) {Object} name Icon name."
+      },
+      {
+        "tagName": "@apiParamExample",
+        "tagValue": "{json} Post-Example:\n\n {\n   \"tags\": [\"solid\", \"wire\"],\n   \"versions\": [],\n   \"name\": \"user-icon\",\n   \"version\": \"0\",\n }"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "next",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "json"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "name": "api/controllers/ColorController.js",
+    "content": "import Abstract from './AbstractController';\n\n/**\n * @export\n * @class ColorController\n * @extends {Abstract}\n */\nexport default class ColorController extends Abstract {\n  /**\n   * Creates an instance of ColorController.\n   *\n   * @param {*} model\n   * @memberof ColorController\n   */\n  constructor(model) {\n    super(model);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/controllers/ColorController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 68,
+    "kind": "class",
+    "name": "ColorController",
+    "memberof": "api/controllers/ColorController.js",
+    "static": true,
+    "longname": "api/controllers/ColorController.js~ColorController",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/controllers/ColorController.js",
+    "importStyle": "ColorController",
+    "description": "",
+    "lineNumber": 8,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "ColorController"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "Abstract"
+    ]
+  },
+  {
+    "__docId__": 69,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "api/controllers/ColorController.js~ColorController",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/controllers/ColorController.js~ColorController#constructor",
+    "access": "public",
+    "description": "Creates an instance of ColorController.",
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "model",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "api/controllers/IconController.js",
+    "content": "import Abstract from './AbstractController';\n\n/**\n * @export\n * @class IconController\n * @extends {Abstract}\n */\nexport default class IconController extends Abstract {\n  /**\n   * Creates an instance of IconController.\n   *\n   * @param {*} model\n   * @memberof IconController\n   */\n  constructor(model) {\n    super(model);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/controllers/IconController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "class",
+    "name": "IconController",
+    "memberof": "api/controllers/IconController.js",
+    "static": true,
+    "longname": "api/controllers/IconController.js~IconController",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/controllers/IconController.js",
+    "importStyle": "IconController",
+    "description": "",
+    "lineNumber": 8,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "IconController"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "Abstract"
+    ]
+  },
+  {
+    "__docId__": 72,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "api/controllers/IconController.js~IconController",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/controllers/IconController.js~IconController#constructor",
+    "access": "public",
+    "description": "Creates an instance of IconController.",
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "model",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 73,
+    "kind": "file",
+    "name": "api/controllers/SizeController.js",
+    "content": "import Abstract from './AbstractController';\n\n/**\n * @export\n * @class SizeController\n * @extends {Abstract}\n */\nexport default class SizeController extends Abstract {\n  /**\n   * Creates an instance of SizeController.\n   *\n   * @param {*} model\n   * @memberof SizeController\n   */\n  constructor(model) {\n    super(model);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/controllers/SizeController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 74,
+    "kind": "class",
+    "name": "SizeController",
+    "memberof": "api/controllers/SizeController.js",
+    "static": true,
+    "longname": "api/controllers/SizeController.js~SizeController",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/controllers/SizeController.js",
+    "importStyle": "SizeController",
+    "description": "",
+    "lineNumber": 8,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "SizeController"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "Abstract"
+    ]
+  },
+  {
+    "__docId__": 75,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "api/controllers/SizeController.js~SizeController",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/controllers/SizeController.js~SizeController#constructor",
+    "access": "public",
+    "description": "Creates an instance of SizeController.",
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "model",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "api/controllers/UserController.js",
+    "content": "import Abstract from './AbstractController';\n\n/**\n * @api UserController for user CRUD.\n *\n * @export\n * @class UserController\n * @extends {Abstract}\n */\nexport default class UserController extends Abstract {\n  /**\n   * Creates an instance of UserController.\n   *\n   * @param {*} model\n   * @memberof UserController\n   */\n  constructor(model) {\n    super(model);\n  }\n\n  /**\n   * @api {get} /users/:name Get user by username (http://example.com/api/users/username)\n   * @apiDescription Get single user by username.\n   * @apiName getByName\n   * @apiGroup UserController\n   * @apiParam (Body) {String} username User username.\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   *\n   * HTTP/1.1 200 OK\n   *\n   *  {\n   *   \"_id\": \"5be4c3440cb85b07bdcab447\",\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test4@gmail.com\",\n   *  \"username\": \"testing4\",\n   *  \"password\": \"password1\",\n   *  \"created_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"updated_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"__v\": 0\n   *  }\n   */\n\n  /**\n   * @api {get} /users Get list of users (http://example.com/api/users)\n   * @apiDescription Get a list of users\n   * @apiName getList\n   * @apiGroup UserController\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   *\n   * HTTP/1.1 200 OK\n   *\n   * [\n   *  {\n   *  \"_id\": \"5be4c3440cb85b07bdcab447\",\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test1@gmail.com\",\n   *  \"username\": \"testing1\",\n   *  \"password\": \"password1\",\n   *  \"created_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"updated_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"__v\": 0\n   *  },\n   *  {\n   *  \"_id\": \"5be4c3440cb85b07bdcab447\",\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test2@gmail.com\",\n   *  \"username\": \"testing2\",\n   *  \"password\": \"password1\",\n   *  \"created_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"updated_at\": \"2018-11-08T23:14:12.162Z\",\n   *  \"__v\": 0\n   *  }\n   * ]\n   */\n\n  /**\n   * @api {post} /endpoint Create user (http://example.com/api/users)\n   * @apiDescription Create user requires body obj.\n   * @apiName create\n   * @apiGroup UserController\n   *\n   * @apiErrorExample {json} Error\n   *\n   * HTTP/1.1 404 Not Found\n   *\n   * @apiSuccessExample Success-Response:\n   * HTTP/1.1 200 OK\n   *\n   *\n   * @apiParam (Body) {String} email User email.\n   * @apiParam (Body) {String} password User password.\n   * @apiParam (Body) {String} username User username.\n   * @apiParam (Body) {String} firstname User first name.\n   * @apiParam (Body) {String} lastname User last name.\n   *\n   * @apiParamExample {json} Post-Example:\n   *\n   * {\n   *  \"firstname\": \"test\",\n   *  \"lastname\": \"testing\",\n   *  \"email\": \"test2@gmail.com\",\n   *  \"username\": \"testing2\",\n   *  \"password\": \"password1\",\n   * }\n   */\n}\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/controllers/UserController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "class",
+    "name": "UserController",
+    "memberof": "api/controllers/UserController.js",
+    "static": true,
+    "longname": "api/controllers/UserController.js~UserController",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/controllers/UserController.js",
+    "importStyle": "UserController",
+    "description": "",
+    "lineNumber": 10,
+    "unknown": [
+      {
+        "tagName": "@api",
+        "tagValue": "UserController for user CRUD."
+      },
+      {
+        "tagName": "@class",
+        "tagValue": "UserController"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "Abstract"
+    ]
+  },
+  {
+    "__docId__": 78,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "api/controllers/UserController.js~UserController",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/controllers/UserController.js~UserController#constructor",
+    "access": "public",
+    "description": "Creates an instance of UserController.",
+    "lineNumber": 17,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "model",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 79,
+    "kind": "file",
+    "name": "api/controllers/VersionController.js",
+    "content": "import Abstract from './AbstractController';\n\n/**\n * @export\n * @class VersionController\n * @extends {Abstract}\n */\nexport default class VersionController extends Abstract {\n  /**\n   * Creates an instance of VersionController.\n   *\n   * @param {*} model\n   * @memberof VersionController\n   */\n  constructor(model) {\n    super(model);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/controllers/VersionController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 80,
+    "kind": "class",
+    "name": "VersionController",
+    "memberof": "api/controllers/VersionController.js",
+    "static": true,
+    "longname": "api/controllers/VersionController.js~VersionController",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/controllers/VersionController.js",
+    "importStyle": "VersionController",
+    "description": "",
+    "lineNumber": 8,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "VersionController"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "Abstract"
+    ]
+  },
+  {
+    "__docId__": 81,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "api/controllers/VersionController.js~VersionController",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/controllers/VersionController.js~VersionController#constructor",
+    "access": "public",
+    "description": "Creates an instance of VersionController.",
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "model",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "name": "api/database/Connect.js",
+    "content": "import mongoose from 'mongoose';\nimport bluebird from 'bluebird';\n\n/**\n * Database connection and settings.\n *\n * @export\n * @class Connect\n */\nexport default class Connect {\n  /**\n   * Creates an instance of Connect.\n   *\n   * @param {*} configs\n   * @memberof Connect\n   */\n  constructor(configs) {\n    this._configs = configs;\n    mongoose.Promise = bluebird;\n    this.setDebug();\n  }\n\n  /**\n   * Mongoose set debug based on env.\n   *\n   * @memberof Connect\n   */\n  setDebug() {\n    mongoose.set('debug', this._configs.APP_CONFIG.MONGOOSE_DEBUG);\n  }\n\n  /**\n   * Connect database.\n   *\n   * @memberof Connect\n   */\n  initialize() {\n    try {\n      mongoose.connect(\n        this._configs.DATABASE.CONNECT_URL,\n        {useNewUrlParser: true},\n      );\n    } catch (error) {\n      mongoose.createConnection(this._configs.DATABASE.CONNECT_URL);\n    }\n\n    mongoose.connection.once('open', () => console.log('MongoDB Connected')).on('error', error => {\n      throw error;\n    });\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/database/Connect.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 83,
+    "kind": "class",
+    "name": "Connect",
+    "memberof": "api/database/Connect.js",
+    "static": true,
+    "longname": "api/database/Connect.js~Connect",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/database/Connect.js",
+    "importStyle": "Connect",
+    "description": "Database connection and settings.",
+    "lineNumber": 10,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "Connect"
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 84,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "api/database/Connect.js~Connect",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/database/Connect.js~Connect#constructor",
+    "access": "public",
+    "description": "Creates an instance of Connect.",
+    "lineNumber": 17,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "configs",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 85,
+    "kind": "member",
+    "name": "_configs",
+    "memberof": "api/database/Connect.js~Connect",
+    "static": false,
+    "longname": "api/database/Connect.js~Connect#_configs",
+    "access": "private",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "method",
+    "name": "setDebug",
+    "memberof": "api/database/Connect.js~Connect",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/database/Connect.js~Connect#setDebug",
+    "access": "public",
+    "description": "Mongoose set debug based on env.",
+    "lineNumber": 28,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 87,
+    "kind": "method",
+    "name": "initialize",
+    "memberof": "api/database/Connect.js~Connect",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/database/Connect.js~Connect#initialize",
+    "access": "public",
+    "description": "Connect database.",
+    "lineNumber": 37,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "api/models/ColorModel.js",
+    "content": "import mongoose, {Schema} from 'mongoose';\n\nconst ColorSchema = new Schema(\n  {\n    colors: {\n      type: Array,\n      required: true,\n    },\n  },\n  {\n    timestamps: {\n      createdAt: 'created_at',\n      updatedAt: 'updated_at',\n    },\n  },\n);\n\n// Export the model\nconst Color = mongoose.model('Colors', ColorSchema);\nexport default Color;\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/models/ColorModel.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "variable",
+    "name": "ColorSchema",
+    "memberof": "api/models/ColorModel.js",
+    "static": true,
+    "longname": "api/models/ColorModel.js~ColorSchema",
+    "access": "public",
+    "export": false,
+    "importPath": "styleguide-api-node/api/models/ColorModel.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 90,
+    "kind": "variable",
+    "name": "Color",
+    "memberof": "api/models/ColorModel.js",
+    "static": true,
+    "longname": "api/models/ColorModel.js~Color",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/models/ColorModel.js",
+    "importStyle": "Color",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "file",
+    "name": "api/models/IconModel.js",
+    "content": "import mongoose, {Schema} from 'mongoose';\n\nconst IconSchema = new Schema(\n  {\n    name: {\n      type: 'string',\n      required: true,\n      unique: true,\n    },\n    tags: Array,\n    versions: Array,\n  },\n  {\n    timestamps: {\n      createdAt: 'created_at',\n      updatedAt: 'updated_at',\n    },\n  },\n);\n\n// Export the model\nconst Icon = mongoose.model('Icons', IconSchema);\nexport default Icon;\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/models/IconModel.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 92,
+    "kind": "variable",
+    "name": "IconSchema",
+    "memberof": "api/models/IconModel.js",
+    "static": true,
+    "longname": "api/models/IconModel.js~IconSchema",
+    "access": "public",
+    "export": false,
+    "importPath": "styleguide-api-node/api/models/IconModel.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 93,
+    "kind": "variable",
+    "name": "Icon",
+    "memberof": "api/models/IconModel.js",
+    "static": true,
+    "longname": "api/models/IconModel.js~Icon",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/models/IconModel.js",
+    "importStyle": "Icon",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "file",
+    "name": "api/models/SizeModel.js",
+    "content": "import mongoose, {Schema} from 'mongoose';\n\nconst SizeSchema = new Schema(\n  {\n    sizes: {\n      type: Array,\n      required: true,\n    },\n  },\n  {\n    timestamps: {\n      createdAt: 'created_at',\n      updatedAt: 'updated_at',\n    },\n  },\n);\n\n// Export the model\nconst Size = mongoose.model('Sizes', SizeSchema);\nexport default Size;\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/models/SizeModel.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 95,
+    "kind": "variable",
+    "name": "SizeSchema",
+    "memberof": "api/models/SizeModel.js",
+    "static": true,
+    "longname": "api/models/SizeModel.js~SizeSchema",
+    "access": "public",
+    "export": false,
+    "importPath": "styleguide-api-node/api/models/SizeModel.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 96,
+    "kind": "variable",
+    "name": "Size",
+    "memberof": "api/models/SizeModel.js",
+    "static": true,
+    "longname": "api/models/SizeModel.js~Size",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/models/SizeModel.js",
+    "importStyle": "Size",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "file",
+    "name": "api/models/UserModel.js",
+    "content": "import mongoose, {Schema} from 'mongoose';\n\nconst UserSchema = new Schema(\n  {\n    email: {\n      type: String,\n      unique: true,\n      trim: true,\n      required: [true, 'Email is required!'],\n    },\n    firstname: {\n      type: String,\n      trim: true,\n    },\n    lastname: {\n      type: String,\n      trim: true,\n    },\n    username: {\n      type: String,\n      trim: true,\n      unique: true,\n      required: [true, 'User name is required!'],\n    },\n    password: {\n      type: String,\n      required: [true, 'Password is required!'],\n      minlength: [6, 'Password needs to be longer!'],\n    },\n  },\n  {\n    timestamps: {\n      createdAt: 'created_at',\n      updatedAt: 'updated_at',\n    },\n  },\n);\n\n// Export the model\nconst User = mongoose.model('Users', UserSchema);\nexport default User;\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/models/UserModel.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 98,
+    "kind": "variable",
+    "name": "UserSchema",
+    "memberof": "api/models/UserModel.js",
+    "static": true,
+    "longname": "api/models/UserModel.js~UserSchema",
+    "access": "public",
+    "export": false,
+    "importPath": "styleguide-api-node/api/models/UserModel.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 99,
+    "kind": "variable",
+    "name": "User",
+    "memberof": "api/models/UserModel.js",
+    "static": true,
+    "longname": "api/models/UserModel.js~User",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/models/UserModel.js",
+    "importStyle": "User",
+    "description": null,
+    "lineNumber": 40,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "file",
+    "name": "api/models/VersionModel.js",
+    "content": "import mongoose, {Schema} from 'mongoose';\n\nconst VersionSchema = new Schema(\n  {\n    versions: {\n      type: Array,\n      required: true,\n    },\n  },\n  {\n    timestamps: {\n      createdAt: 'created_at',\n      updatedAt: 'updated_at',\n    },\n  },\n);\n\n// Export the model\nconst Version = mongoose.model('Versions', VersionSchema);\nexport default Version;\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/models/VersionModel.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 101,
+    "kind": "variable",
+    "name": "VersionSchema",
+    "memberof": "api/models/VersionModel.js",
+    "static": true,
+    "longname": "api/models/VersionModel.js~VersionSchema",
+    "access": "public",
+    "export": false,
+    "importPath": "styleguide-api-node/api/models/VersionModel.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 102,
+    "kind": "variable",
+    "name": "Version",
+    "memberof": "api/models/VersionModel.js",
+    "static": true,
+    "longname": "api/models/VersionModel.js~Version",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/models/VersionModel.js",
+    "importStyle": "Version",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 103,
+    "kind": "file",
+    "name": "api/routes/IconRoutes.js",
+    "content": "import {Router} from 'express';\nimport Icon from '../models/IconModel';\nimport IconController from '../controllers/IconController';\n\nconst routes = new Router();\nconst IconCtrl = new IconController(Icon);\n\nroutes.get('/', IconCtrl.getList);\nroutes.get('/:name', IconCtrl.getByName);\nroutes.post('/', IconCtrl.create);\n\nexport default routes;\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/routes/IconRoutes.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 104,
+    "kind": "variable",
+    "name": "IconCtrl",
+    "memberof": "api/routes/IconRoutes.js",
+    "static": true,
+    "longname": "api/routes/IconRoutes.js~IconCtrl",
+    "access": "public",
+    "export": false,
+    "importPath": "styleguide-api-node/api/routes/IconRoutes.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "api/controllers/IconController.js~IconController"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 105,
+    "kind": "file",
+    "name": "api/routes/UserRoutes.js",
+    "content": "import {Router} from 'express';\nimport User from '../models/UserModel';\nimport UserController from '../controllers/UserController';\n\nconst routes = new Router();\nconst UserCtrl = new UserController(User);\n\nroutes.get('/', UserCtrl.getList);\nroutes.get('/:name', UserCtrl.getByName);\nroutes.post('/', UserCtrl.create);\n\nexport default routes;\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/routes/UserRoutes.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 106,
+    "kind": "variable",
+    "name": "UserCtrl",
+    "memberof": "api/routes/UserRoutes.js",
+    "static": true,
+    "longname": "api/routes/UserRoutes.js~UserCtrl",
+    "access": "public",
+    "export": false,
+    "importPath": "styleguide-api-node/api/routes/UserRoutes.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "api/controllers/UserController.js~UserController"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 107,
+    "kind": "file",
+    "name": "api/routes/index.js",
+    "content": "import {Router} from 'express';\nimport HTTPStatus from 'http-status';\nimport APIError from '../services/APIError';\nimport Raven from 'raven';\nimport configs from '../configs';\n\nimport IconRoutes from './IconRoutes';\nimport UserRoutes from './UserRoutes';\n\nconst routes = new Router();\n\nroutes.use('/icons', IconRoutes);\nroutes.use('/users', UserRoutes);\n\nroutes.all('*', (req, res, next) => {\n  const raven = new Raven.Client(configs.APP_LOGGING.SENTRY_DSN);\n  raven.captureException(new APIError('Not Found! ', HTTPStatus.NOT_FOUND, true));\n  next(new APIError('Not Found! ', HTTPStatus.NOT_FOUND, true));\n});\n\nexport default routes;\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/routes/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 108,
+    "kind": "file",
+    "name": "api/services/APIError.js",
+    "content": "import httpStatus from 'http-status';\nimport AbstractError from './AbstractError';\n\n/**\n * @export\n * @class APIError\n * @extends AbstractError\n */\nexport default class APIError extends AbstractError {\n  /**\n   * Creates an API error.\n   *\n   * @constructor\n   * @memberof APIError\n   * @param {string} message - Error message.\n   * @param {number} status - HTTP status code of error.\n   * @param {boolean} isPublic - Whether the message should be visible to user or not.\n   */\n  constructor(message, status = httpStatus.INTERNAL_SERVER_ERROR, isPublic = false) {\n    super(message, status, isPublic);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/services/APIError.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 109,
+    "kind": "class",
+    "name": "APIError",
+    "memberof": "api/services/APIError.js",
+    "static": true,
+    "longname": "api/services/APIError.js~APIError",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/services/APIError.js",
+    "importStyle": "APIError",
+    "description": "",
+    "lineNumber": 9,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "APIError"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "*"
+    ]
+  },
+  {
+    "__docId__": 110,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "api/services/APIError.js~APIError",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/APIError.js~APIError#constructor",
+    "access": "public",
+    "description": "Creates an API error.",
+    "lineNumber": 19,
+    "unknown": [
+      {
+        "tagName": "@constructor",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": "Error message."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "status",
+        "description": "HTTP status code of error."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "isPublic",
+        "description": "Whether the message should be visible to user or not."
+      }
+    ]
+  },
+  {
+    "__docId__": 111,
+    "kind": "file",
+    "name": "api/services/AbstractError.js",
+    "content": "/**\n * Application AbstractError class.\n *\n * @export\n * @class AbstractError\n * @extends Error\n */\nexport default class AbstractError extends Error {\n  /**\n   * AbstractError constructor.\n   *\n   * @constructor\n   * @memberof AbstractError\n   * @param {string} message - Error message to be formatted.\n   * @param {string} status - Error status\n   * @param {boolean} isPublic - Is pubic error or not?\n   */\n  constructor(message, status, isPublic) {\n    super(message);\n\n    if (new.target === AbstractError) {\n      throw new TypeError('Cannot construct Abstract instances directly.');\n    }\n\n    this.name = this.constructor.name;\n    this.message = message;\n    this.status = status;\n    this.isPublic = isPublic;\n    this.isOperational = true;\n    Error.captureStackTrace(this, this.constructor.name);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/services/AbstractError.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 112,
+    "kind": "class",
+    "name": "AbstractError",
+    "memberof": "api/services/AbstractError.js",
+    "static": true,
+    "longname": "api/services/AbstractError.js~AbstractError",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/services/AbstractError.js",
+    "importStyle": "AbstractError",
+    "description": "Application AbstractError class.",
+    "lineNumber": 8,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "AbstractError"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "*"
+    ]
+  },
+  {
+    "__docId__": 113,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "api/services/AbstractError.js~AbstractError",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/AbstractError.js~AbstractError#constructor",
+    "access": "public",
+    "description": "AbstractError constructor.",
+    "lineNumber": 18,
+    "unknown": [
+      {
+        "tagName": "@constructor",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": "Error message to be formatted."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "status",
+        "description": "Error status"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "isPublic",
+        "description": "Is pubic error or not?"
+      }
+    ]
+  },
+  {
+    "__docId__": 114,
+    "kind": "member",
+    "name": "name",
+    "memberof": "api/services/AbstractError.js~AbstractError",
+    "static": false,
+    "longname": "api/services/AbstractError.js~AbstractError#name",
+    "access": "public",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 115,
+    "kind": "member",
+    "name": "message",
+    "memberof": "api/services/AbstractError.js~AbstractError",
+    "static": false,
+    "longname": "api/services/AbstractError.js~AbstractError#message",
+    "access": "public",
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 116,
+    "kind": "member",
+    "name": "status",
+    "memberof": "api/services/AbstractError.js~AbstractError",
+    "static": false,
+    "longname": "api/services/AbstractError.js~AbstractError#status",
+    "access": "public",
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 117,
+    "kind": "member",
+    "name": "isPublic",
+    "memberof": "api/services/AbstractError.js~AbstractError",
+    "static": false,
+    "longname": "api/services/AbstractError.js~AbstractError#isPublic",
+    "access": "public",
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 118,
+    "kind": "member",
+    "name": "isOperational",
+    "memberof": "api/services/AbstractError.js~AbstractError",
+    "static": false,
+    "longname": "api/services/AbstractError.js~AbstractError#isOperational",
+    "access": "public",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 119,
+    "kind": "file",
+    "name": "api/services/AbstractLogger.js",
+    "content": "/**\n * Application AbstractLogger class.\n *\n * @export\n * @class AbstractLogger\n */\nexport default class AbstractLogger {\n  /**\n   * AbstractLogger constructor.\n   *\n   * @constructor\n   * @memberof AbstractLogger\n   */\n  constructor() {\n    if (new.target === AbstractLogger) {\n      throw new TypeError('Cannot construct Abstract instances directly.');\n    }\n\n    this.emergency();\n    this.alert();\n    this.critical();\n    this.error();\n    this.warning();\n    this.notice();\n    this.info();\n    this.debug();\n    this.log();\n  }\n\n  /**\n   * System is unusable.\n   *\n   * @desc Method is considered abstract and must be implemented by child/subclass.\n   *\n   * @param {string} message\n   * @param {array} context\n   * @return {Error}\n   */\n  emergency(message = '', context = []) {\n    return this.implementationRequired('emergency');\n  }\n\n  /**\n   * Action must be taken immediately.\n   *\n   * @example Entire website down, database unavailable, etc. This should\n   *          trigger the SMS alerts and wake you up.\n   *\n   * @desc Method is considered abstract and must be implemented by child/subclass.\n   *\n   * @param {string} message\n   * @param {array} context\n   * @return {Error}\n   */\n  alert(message = '', context = []) {\n    return this.implementationRequired('alert');\n  }\n\n  /**\n   * Critical conditions.\n   *\n   * @example Application component unavailable, unexpected exception.\n   *\n   * @desc Method is considered abstract and must be implemented by child/subclass.\n   *\n   * @param {string} message\n   * @param {array} context\n   * @return {Error}\n   */\n  critical(message = '', context = []) {\n    return this.implementationRequired('critical');\n  }\n\n  /**\n   * Runtime errors that do not require immediate action but should typically\n   * be logged and monitored.\n   *\n   * @desc Method is considered abstract and must be implemented by child/subclass.\n   *\n   * @param {string} message\n   * @param {array} context\n   * @return {Error}\n   */\n  error(message = '', context = []) {\n    return this.implementationRequired('error');\n  }\n\n  /**\n   * Exceptional occurrences that are not errors.\n   *\n   * @example Use of deprecated APIs, poor use of an API, undesirable things\n   *          that are not necessarily wrong.\n   *\n   * @desc Method is considered abstract and must be implemented by child/subclass.\n   *\n   * @param {string} message\n   * @param {array} context\n   * @return {Error}\n   */\n  warning(message = '', context = []) {\n    return this.implementationRequired('warning');\n  }\n\n  /**\n   * Normal but significant events.\n   *\n   * @desc Method is considered abstract and must be implemented by child/subclass.\n   *\n   * @param {string} message\n   * @param {array} context\n   * @return {Error}\n   */\n  notice(message = '', context = []) {\n    return this.implementationRequired('notice');\n  }\n\n  /**\n   * Interesting events.\n   *\n   * @example User logs in, SQL logs.\n   *\n   * @desc Method is considered abstract and must be implemented by child/subclass.\n   *\n   * @param {string} message\n   * @param {array} context\n   * @return {Error}\n   */\n  info(message = '', context = []) {\n    return this.implementationRequired('info');\n  }\n\n  /**\n   * Detailed debug information.\n   *\n   * @desc Method is considered abstract and must be implemented by child/subclass.\n   *\n   * @param {string} message\n   * @param {array} context\n   * @return {Error}\n   */\n  debug(message = '', context = []) {\n    return this.implementationRequired('debug');\n  }\n\n  /**\n   * Logs with an arbitrary level.\n   *\n   * @desc Method is considered abstract and must be implemented by child/subclass.\n   *\n   * @param {*} level\n   * @param {*} message\n   * @param {*} context\n   * @return {Error}\n   */\n  log(level = '', message, context = []) {\n    return this.implementationRequired('log');\n  }\n\n  /**\n   * Throws error if method not implemented.\n   *\n   * @param {*} methodName name of method we are throwing error for.\n   * @throws Error\n   */\n  implementationRequired(methodName) {\n    throw new Error(`You have to implement the method ${methodName}!`);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/services/AbstractLogger.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 120,
+    "kind": "class",
+    "name": "AbstractLogger",
+    "memberof": "api/services/AbstractLogger.js",
+    "static": true,
+    "longname": "api/services/AbstractLogger.js~AbstractLogger",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/services/AbstractLogger.js",
+    "importStyle": "AbstractLogger",
+    "description": "Application AbstractLogger class.",
+    "lineNumber": 7,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "AbstractLogger"
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 121,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "api/services/AbstractLogger.js~AbstractLogger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/AbstractLogger.js~AbstractLogger#constructor",
+    "access": "public",
+    "description": "AbstractLogger constructor.",
+    "lineNumber": 14,
+    "unknown": [
+      {
+        "tagName": "@constructor",
+        "tagValue": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 122,
+    "kind": "method",
+    "name": "emergency",
+    "memberof": "api/services/AbstractLogger.js~AbstractLogger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/AbstractLogger.js~AbstractLogger#emergency",
+    "access": "public",
+    "description": "Method is considered abstract and must be implemented by child/subclass.",
+    "lineNumber": 39,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "context",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 123,
+    "kind": "method",
+    "name": "alert",
+    "memberof": "api/services/AbstractLogger.js~AbstractLogger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/AbstractLogger.js~AbstractLogger#alert",
+    "access": "public",
+    "description": "Method is considered abstract and must be implemented by child/subclass.",
+    "examples": [
+      "Entire website down, database unavailable, etc. This should\n         trigger the SMS alerts and wake you up."
+    ],
+    "lineNumber": 55,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "context",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 124,
+    "kind": "method",
+    "name": "critical",
+    "memberof": "api/services/AbstractLogger.js~AbstractLogger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/AbstractLogger.js~AbstractLogger#critical",
+    "access": "public",
+    "description": "Method is considered abstract and must be implemented by child/subclass.",
+    "examples": [
+      "Application component unavailable, unexpected exception."
+    ],
+    "lineNumber": 70,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "context",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 125,
+    "kind": "method",
+    "name": "error",
+    "memberof": "api/services/AbstractLogger.js~AbstractLogger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/AbstractLogger.js~AbstractLogger#error",
+    "access": "public",
+    "description": "Method is considered abstract and must be implemented by child/subclass.",
+    "lineNumber": 84,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "context",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 126,
+    "kind": "method",
+    "name": "warning",
+    "memberof": "api/services/AbstractLogger.js~AbstractLogger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/AbstractLogger.js~AbstractLogger#warning",
+    "access": "public",
+    "description": "Method is considered abstract and must be implemented by child/subclass.",
+    "examples": [
+      "Use of deprecated APIs, poor use of an API, undesirable things\n         that are not necessarily wrong."
+    ],
+    "lineNumber": 100,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "context",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 127,
+    "kind": "method",
+    "name": "notice",
+    "memberof": "api/services/AbstractLogger.js~AbstractLogger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/AbstractLogger.js~AbstractLogger#notice",
+    "access": "public",
+    "description": "Method is considered abstract and must be implemented by child/subclass.",
+    "lineNumber": 113,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "context",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 128,
+    "kind": "method",
+    "name": "info",
+    "memberof": "api/services/AbstractLogger.js~AbstractLogger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/AbstractLogger.js~AbstractLogger#info",
+    "access": "public",
+    "description": "Method is considered abstract and must be implemented by child/subclass.",
+    "examples": [
+      "User logs in, SQL logs."
+    ],
+    "lineNumber": 128,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "context",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 129,
+    "kind": "method",
+    "name": "debug",
+    "memberof": "api/services/AbstractLogger.js~AbstractLogger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/AbstractLogger.js~AbstractLogger#debug",
+    "access": "public",
+    "description": "Method is considered abstract and must be implemented by child/subclass.",
+    "lineNumber": 141,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "context",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 130,
+    "kind": "method",
+    "name": "log",
+    "memberof": "api/services/AbstractLogger.js~AbstractLogger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/AbstractLogger.js~AbstractLogger#log",
+    "access": "public",
+    "description": "Method is considered abstract and must be implemented by child/subclass.",
+    "lineNumber": 155,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "level",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "context",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 131,
+    "kind": "method",
+    "name": "implementationRequired",
+    "memberof": "api/services/AbstractLogger.js~AbstractLogger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/AbstractLogger.js~AbstractLogger#implementationRequired",
+    "access": "public",
+    "description": "Throws error if method not implemented.",
+    "lineNumber": 165,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "methodName",
+        "description": "name of method we are throwing error for."
+      }
+    ],
+    "throws": [
+      {
+        "types": [
+          "*"
+        ],
+        "description": "Error"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 132,
+    "kind": "file",
+    "name": "api/services/FormatError.js",
+    "content": "/**\n * Error formatting class.\n *\n * @export\n * @class FormatError\n */\nexport default class FormatError {\n  /**\n   * Make error pretty\n   *\n   * @static\n   * @param {Array} errors - Array of error Object\n   * @return {Object} - errors - Pretty Object transform\n   */\n  static makePretty(errors) {\n    return errors.reduce((obj, error) => {\n      const nObj = obj;\n      nObj[error.field] = error.messages[0].replace(/\"/g, '');\n      return nObj;\n    }, {});\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/services/FormatError.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 133,
+    "kind": "class",
+    "name": "FormatError",
+    "memberof": "api/services/FormatError.js",
+    "static": true,
+    "longname": "api/services/FormatError.js~FormatError",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/services/FormatError.js",
+    "importStyle": "FormatError",
+    "description": "Error formatting class.",
+    "lineNumber": 7,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "FormatError"
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 134,
+    "kind": "method",
+    "name": "makePretty",
+    "memberof": "api/services/FormatError.js~FormatError",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "api/services/FormatError.js~FormatError.makePretty",
+    "access": "public",
+    "description": "Make error pretty",
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "errors",
+        "description": "Array of error Object"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "errors - Pretty Object transform"
+    }
+  },
+  {
+    "__docId__": 135,
+    "kind": "file",
+    "name": "api/services/LogLevel.js",
+    "content": "export const EMERGENCY = 'emergency';\nexport const ALERT = 'alert';\nexport const CRITICAL = 'critical';\nexport const ERROR = 'error';\nexport const WARNING = 'warning';\nexport const NOTICE = 'notice';\nexport const INFO = 'info';\nexport const DEBUG = 'debug';\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/services/LogLevel.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 136,
+    "kind": "variable",
+    "name": "EMERGENCY",
+    "memberof": "api/services/LogLevel.js",
+    "static": true,
+    "longname": "api/services/LogLevel.js~EMERGENCY",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/services/LogLevel.js",
+    "importStyle": "{EMERGENCY}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 137,
+    "kind": "variable",
+    "name": "ALERT",
+    "memberof": "api/services/LogLevel.js",
+    "static": true,
+    "longname": "api/services/LogLevel.js~ALERT",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/services/LogLevel.js",
+    "importStyle": "{ALERT}",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 138,
+    "kind": "variable",
+    "name": "CRITICAL",
+    "memberof": "api/services/LogLevel.js",
+    "static": true,
+    "longname": "api/services/LogLevel.js~CRITICAL",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/services/LogLevel.js",
+    "importStyle": "{CRITICAL}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 139,
+    "kind": "variable",
+    "name": "ERROR",
+    "memberof": "api/services/LogLevel.js",
+    "static": true,
+    "longname": "api/services/LogLevel.js~ERROR",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/services/LogLevel.js",
+    "importStyle": "{ERROR}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 140,
+    "kind": "variable",
+    "name": "WARNING",
+    "memberof": "api/services/LogLevel.js",
+    "static": true,
+    "longname": "api/services/LogLevel.js~WARNING",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/services/LogLevel.js",
+    "importStyle": "{WARNING}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 141,
+    "kind": "variable",
+    "name": "NOTICE",
+    "memberof": "api/services/LogLevel.js",
+    "static": true,
+    "longname": "api/services/LogLevel.js~NOTICE",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/services/LogLevel.js",
+    "importStyle": "{NOTICE}",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 142,
+    "kind": "variable",
+    "name": "INFO",
+    "memberof": "api/services/LogLevel.js",
+    "static": true,
+    "longname": "api/services/LogLevel.js~INFO",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/services/LogLevel.js",
+    "importStyle": "{INFO}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 143,
+    "kind": "variable",
+    "name": "DEBUG",
+    "memberof": "api/services/LogLevel.js",
+    "static": true,
+    "longname": "api/services/LogLevel.js~DEBUG",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/services/LogLevel.js",
+    "importStyle": "{DEBUG}",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 144,
+    "kind": "file",
+    "name": "api/services/Logger.js",
+    "content": "import AbstractLogger from './AbstractLogger';\n\nexport default class Logger extends AbstractLogger {\n  constructor() {\n    super();\n    this.isProd = process.env.NODE_ENV === 'production';\n    this.isDev = process.env.NODE_ENV === 'development';\n  }\n\n  emergency() {\n    return '';\n  }\n  alert() {\n    return '';\n  }\n  critical() {\n    return '';\n  }\n  error() {\n    return '';\n  }\n  warning() {\n    return '';\n  }\n  notice() {\n    return '';\n  }\n  info() {\n    return '';\n  }\n  debug() {\n    return '';\n  }\n  log() {\n    return '';\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/api/services/Logger.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 145,
+    "kind": "class",
+    "name": "Logger",
+    "memberof": "api/services/Logger.js",
+    "static": true,
+    "longname": "api/services/Logger.js~Logger",
+    "access": "public",
+    "export": true,
+    "importPath": "styleguide-api-node/api/services/Logger.js",
+    "importStyle": "Logger",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "api/services/AbstractLogger.js~AbstractLogger"
+    ]
+  },
+  {
+    "__docId__": 146,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "api/services/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/Logger.js~Logger#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true
+  },
+  {
+    "__docId__": 147,
+    "kind": "member",
+    "name": "isProd",
+    "memberof": "api/services/Logger.js~Logger",
+    "static": false,
+    "longname": "api/services/Logger.js~Logger#isProd",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 148,
+    "kind": "member",
+    "name": "isDev",
+    "memberof": "api/services/Logger.js~Logger",
+    "static": false,
+    "longname": "api/services/Logger.js~Logger#isDev",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 149,
+    "kind": "method",
+    "name": "emergency",
+    "memberof": "api/services/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/Logger.js~Logger#emergency",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 150,
+    "kind": "method",
+    "name": "alert",
+    "memberof": "api/services/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/Logger.js~Logger#alert",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 151,
+    "kind": "method",
+    "name": "critical",
+    "memberof": "api/services/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/Logger.js~Logger#critical",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 152,
+    "kind": "method",
+    "name": "error",
+    "memberof": "api/services/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/Logger.js~Logger#error",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 153,
+    "kind": "method",
+    "name": "warning",
+    "memberof": "api/services/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/Logger.js~Logger#warning",
+    "access": "public",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 154,
+    "kind": "method",
+    "name": "notice",
+    "memberof": "api/services/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/Logger.js~Logger#notice",
+    "access": "public",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 155,
+    "kind": "method",
+    "name": "info",
+    "memberof": "api/services/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/Logger.js~Logger#info",
+    "access": "public",
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 156,
+    "kind": "method",
+    "name": "debug",
+    "memberof": "api/services/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/Logger.js~Logger#debug",
+    "access": "public",
+    "description": null,
+    "lineNumber": 31,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 157,
+    "kind": "method",
+    "name": "log",
+    "memberof": "api/services/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "api/services/Logger.js~Logger#log",
+    "access": "public",
+    "description": null,
+    "lineNumber": 34,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# Design System NodeJS API\n[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)\n\nNodeJS API for managing design system. Can also be used as a API project boilerplate.\n\n## Dependencies\n---\n\n* [Bluebird](http://bluebirdjs.com/)\n  * __Description:__ Promise library used with Mongoose (ODM).\n  * __Why is it used:__ Replaces Mongoose's own promise library (faster, better tested, and has more utility functions available).\n  * __Example:__ See examples on [Bluebirds site](http://bluebirdjs.com/docs/why-promises.html)\n\n* [BodyParser](https://www.npmjs.com/package/body-parser)\n  * __Description:__ NodeJS body parsing middleware.\n  * __Why is it used:__ Used for parsing Json data in our API calls and parsing urlencoded bodies.\n  * __Example:__ See examples on [body-parser](https://www.npmjs.com/package/body-parser)\n\n* [Compression](https://www.npmjs.com/package/compression)\n  * __Description:__ Gzip compression middleware.\n  * __Why is it used:__ Can greatly decrease the size of the response body and increase the speed of our web app.\n  * __Example:__ See examples on [compression](https://www.npmjs.com/package/compression)\n\n* [Cors](https://www.npmjs.com/package/cors)\n  * __Description:__ NodeJS package that enables `CORS` for ExpressJS.\n  * __Why is it used:__ Allows AJAX requests to skip the Same-origin policy and access resources from remote hosts.\n  * __Example:__ Header returns `Access-Control-Allow-Origin: *` when enabled. See examples on [cors](https://www.npmjs.com/package/cors)\n\n* [DotEnv](https://www.npmjs.com/package/dotenv)\n  * __Description:__ Loads environment variables from .env file.\n  * __Why is it used:__ To store configs in a single location that the app can read from and so this info is not stored in version control.\n  * __Example:__ Checkout the `.env.example` to see the configs.\n\n* [Express](https://expressjs.com)\n  * __Description:__ NodeJS web application framework.\n  * __Why is it used:__ Provides a nice library of web application features that we can use to build our app without obscuring NodeJS.\n  * __Example:__ See examples on [expressJs](https://expressjs.com/en/starter/installing.html)\n\n* [HTTP Status](https://www.npmjs.com/package/http-status)\n  * __Description:__ Predfined HTTP status codes for NodeJS.\n  * __Why is it used:__ This is used in our API controllers for returning our http status on success or error.\n  * __Example:__ See examples on [http-status](https://www.npmjs.com/package/http-status)\n\n* [Mongoose](https://mongoosejs.com/)\n  * __Description:__ Mongoose (ODM) Object Data Modeling library for NodeJS and MongoDB.\n  * __Why is it used:__ Handles the relationships between data and handles schema validation and more.\n  * __Example:__ See examples on [Mongoose](https://mongoosejs.com/)\n\n## Dev Dependencies\n---\n\n* [All Contributors CLI](https://www.npmjs.com/package/all-contributors-cli)\n  * __Description:__ Used to implement the `All Contributors Spec`.\n  * __Why is it used:__ Helps to automate the `All Contributors Spec` creates our `.all-contributorsrc` file and fill in contributor information. Also writes contributor info to `README.md`.\n  * __Example:__ See examples on [all-contributors-cli](https://www.npmjs.com/package/all-contributors-cli)\n\n* [API Doc](https://www.npmjs.com/package/apidoc)\n  * __Description:__ Used to create API documentation.\n  * __Why is it used:__ This creates documentation from API annotations in our source code.\n  * __Example:__ See examples on [apidoc](http://apidocjs.com/)\n\n* [Esdoc](https://www.npmjs.com/package/esdoc)\n  * __Description:__ Used to create Application documentation.\n  * __Why is it used:__ This creates documentation from doc block annotations in our source code.\n  * __Example:__ See examples on [apidoc](https://esdoc.org/)\n\n* [Esdoc Standard Plugin](https://www.npmjs.com/package/esdoc-standard-plugin)\n  * __Description:__ Glue plugin for esdoc standards.\n  * __Why is it used:__ Assist with esdoc for doc standards.\n  * __Example:__ See examples on [esdoc-standard-plugin](https://www.npmjs.com/package/esdoc-standard-plugin)\n\n* [Babel Core](https://www.npmjs.com/package/@babel/core)\n  * __Description:__ Babel compiler core package.\n  * __Why is it used:__ Used as part of webpack in our build srcripts to compile `ECMAScript 2015+` into browser supported versions of JavaScript.\n  * __Example:__ See examples on [@babel/core](https://www.npmjs.com/package/@babel/core)\n\n* [Babel Jest](https://www.npmjs.com/package/babel-jest)\n  * __Description:__ Allows transpiling JavaScript test with `Babel` and `WebPack`.\n  * __Why is it used:__ So we can write es6 > in our tests.\n  * __Example:__ See examples on [babel-jest](https://www.npmjs.com/package/babel-jest)\n\n* [Babel Loader](https://www.npmjs.com/package/babel-loader)\n  * __Description:__ Allows transpiling JavaScript with `Babel` and `WebPack`.\n  * __Why is it used:__ `WebPack` enables the use of loaders to preprocess files. Allows us to bundle our static resources.\n  * __Example:__ See examples on [babel-loader](https://www.npmjs.com/package/babel-loader)\n\n* [Babel Preset Env ](https://www.npmjs.com/package/@babel/preset-env)\n  * __Description:__ Allows us to use the latest ECMA Script syntax without constantly chaning the supported versions.\n  * __Why is it used:__  Checks target environments against their mappings to compile a list of plugins and passes it to `Babel`.\n  * __Example:__ See examples on [@babel/preset-env](https://babeljs.io/docs/en/next/babel-preset-env.html)\n\n* [EsLint](https://www.npmjs.com/package/eslint)\n  * __Description:__ JavaScript syntax linter.\n  * __Why is it used:__ Lints our JavaScript syntax.\n  * __Example:__ See examples on [eslint](https://www.npmjs.com/package/eslint)\n\n* [EsLint Config Google](https://www.npmjs.com/package/eslint-config-google)\n  * __Description:__ `Google's JavaScript Styleguide`.\n  * __Why is it used:__ Our eslint configs extends these to define our `JavaScript styleguide` when linting.\n  * __Example:__ See examples on [eslint-config-google](https://www.npmjs.com/package/eslint-config-google)\n  * __Docs:__ [Google JavaScript Styleguide Docs](https://google.github.io/styleguide/jsguide.html)\n\n* [Jest](https://jestjs.io/)\n  * __Description:__ JavaScript testing library.\n  * __Why is it used:__ Used to run tests, generate coverage and more.\n  * __Example:__ See examples on [jest](https://www.npmjs.com/package/jest)\n\n* [NPS Scripts](https://www.npmjs.com/package/nps)\n  * __Description:__ Allows us to use npm scripts in a much cleaner way without bloating the package.json file.\n  * __Why is it used:__ Needed to seperate all of our project build scripts without adding another dependency like gulp. Allows us to use npm scripts and not in the package file so we can organize it, and also allows us to comment each script.\n  * __Example:__ Checkout the `package-scripts.js` to see all the tasks this is handling for this project.\n\n* [NPS Scripts Utils](https://www.npmjs.com/package/nps-utils)\n  * __Description:__ Has several utility functions to help when using nps scripts.\n  * __Why is it used:__ Wanted to use this so we could use it's utility methods within our nps tasks file.\n  * __Example:__ Checkout the [API Docs](https://doc.esdoc.org/github.com/kentcdodds/nps-utils/) for list of all the utility methods.\n\n* [Path](https://www.npmjs.com/package/path)\n  * __Description:__ Utility for working with file and directory paths in NodeJS.\n  * __Why is it used:__ `Webpack` uses this for defining project paths.\n  * __Example:__ See examples on [path](https://nodejs.org/docs/latest/api/path.html)\n\n* [Regenerator Runtime]()\n  * __Description:__ From [GitHub](https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime) `Standalone runtime for Regenerator-compiled generator and async functions`\n  * __Why is it used:__ Adds support in WebPack for async functions.\n  * __Example:__ See examples on [regenerator-runtime](https://www.npmjs.com/package/regenerator-runtime)\n\n* [Webpack](https://www.npmjs.com/package/webpack)\n  * __Description:__ Module bundler for bundling JavaScript files for usage in a browser.\n  * __Why is it used:__ Bundles our `API` files into `www` dir.\n  * __Example:__ See examples on [webpack](https://webpack.js.org/concepts/)\n\n* [Webpack CLI](https://www.npmjs.com/package/webpack-cli)\n  * __Description:__ CLI tool used for setting up Webpack projects.\n  * __Why is it used:__ Runds our webpack commands from build scripts.\n  * __Example:__ See our `package-scripts.js` where commands are being executed. Also see [webpack-cli](https://webpack.js.org/guides/getting-started/)\n\n* [Webpack Node Externals]()\n  * __Description:__ Used to exclude modules from bundling.\n  * __Why is it used:__ Ignore all modules in `node_modules` directory.\n  * __Example:__ See examples on [webpack-node-externals](https://www.npmjs.com/package/webpack-node-externals)\n\n### Was all this ^^ necessary?\n  * No not entirely, but by documenting all of my dependencies I was able to remove about 50% of what I had installed and narrow it down by asking my self why I was using it and how important was it.\n\n## Installation\n---\n\n* Clone this repository `git clone https://github.com/uiarch/design-system-node-api.git`.\n* Cd into app `cd design-system-node-api`.\n* Run `npm install`.\n* Follow [MongoDB Instructions below](#install-mongodb).\n* Run `cp .example.env .env` and fill in values.\n* Run `npm run build:dev` and then `npm run watch:dev` files will be compiled and ran from `www` dir.\n* Go to `localhost:<.env specified port>`.\n\n## Install MongoDB\n---\n\n* In your terminal type `brew update`.\n* After homebrew is finished updating run `brew install mongodb`.\n* Start the MongoDB server `mongod`.\n* In another terminal window run mongo shell by typing `mongo` which is an application to access data in MongoDB.\n* __@todo add docs for creating auth user in MongoDB__\n\n* Connecting to MongoDB\n  * Copy `.env.example` to `.env`\n  * `MONGO_URL=localhost`\n  * `MONGO_DB_NAME=dbName`\n  * `MONGO_USER=username`\n  * `MONGO_PASSWORD=password`\n  * `MONGO_PORT=27017`\n\n## Running This Project\n---\n\n* Uses [nps](https://www.npmjs.com/package/nps) (Node Package Scripts) dependency for handling our tasks.\n* Build for production, cleans and compiles code to `www` dir then compresses JS.\n  * `npm run build:prod` - `\"nps build\"`\n* Build and run server for development, compiles code to `www` dir does not compress JS.\n  * `npm run build:dev` - `\"nps dev.build\"`\n* Watch and compile code and run node server.\n  * `npm run watch:dev` - `nps dev`\n* Run `eslint` which extends `eslint-config-google`.\n  * `npm run lint` - `nps lint`\n* Run `eslint` fix.\n  * `lint:fix` - `nps lint.fix`\n* Follows the all-contributors specification.\n  * Run `contributors:add` which is used to add yourself to the contributors list. See [all-contributors](https://www.npmjs.com/package/all-contributors-cli) for more details and usage.\n    * `npm run contributors:add -- <github username> <contrib type>`\n    * `npm run contributors:generate` generates contributors in readme.md.\n* Uses [jest](https://jestjs.io/) library for testing.\n  * To run test simply run.\n    * `npm run test`.\n  * To generate test coverage run.\n    * `npm run test:coverage`\n* Uses [apidoc](http://apidocjs.com/) to create inline documentation from API annotations.\n  * To generate documentation run.\n    * `npm run doc`\n\n## API Examples\n---\n\n### Icons\n* __`cURL` retrieve icon by name example:__\n  ```\n    curl -X GET \\\n    http://localhost:8081/api/icons/user-icon \\\n    -H 'cache-control: no-cache'\n  ```\n* __`cURL` retrieve list of icons Example:__\n  ```\n    curl -X GET \\\n    http://localhost:8081/api/icons \\\n    -H 'cache-control: no-cache'\n  ```\n* __`cURL` create icon example:__\n  ```\n    curl -X POST \\\n      http://localhost:8081/api/icons \\\n      -H 'Content-Type: application/json' \\\n      -H 'cache-control: no-cache' \\\n      -d '{\n      \"name\": \"user-icon\",\n      \"tags\": [\"solid\", \"wire\"],\n      \"versions\": [1.2, 1.5]\n    }'\n  ```\n\n## Contributors\n---\n\n<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->\n<!-- prettier-ignore -->\n| [<img src=\"https://avatars0.githubusercontent.com/u/5857345?v=4\" width=\"100px;\"/><br /><sub><b>Anthony Allen</b></sub>](http://theuiarch.com)<br />[💻](https://github.com/uiarch/design-system-node-api/commits?author=uiarch \"Code\") [📖](https://github.com/uiarch/design-system-node-api/commits?author=uiarch \"Documentation\") |\n| :---: |\n<!-- ALL-CONTRIBUTORS-LIST:END -->",
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"styleguide-api-node\",\n  \"version\": \"1.0.0\",\n  \"description\": \"NodeJS Api for managing styleguide admin section\",\n  \"scripts\": {\n    \"build:prod\": \"nps build\",\n    \"build:dev\": \"nps dev.build\",\n    \"watch:dev\": \"nps dev\",\n    \"lint\": \"nps lint\",\n    \"lint:fix\": \"nps lint.fix\",\n    \"contributors:add\": \"all-contributors add\",\n    \"contributors:generate\": \"all-contributors generate\",\n    \"test\": \"nps test\",\n    \"test:coverage\": \"nps test.coverage\",\n    \"api:doc\": \"nps doc\",\n    \"app:doc\": \"esdoc\"\n  },\n  \"author\": \"Anthony Allen\",\n  \"license\": \"MIT\",\n  \"keywords\": [\n    \"API\",\n    \"Express\",\n    \"REST\",\n    \"Mongoose\",\n    \"MongoDB\",\n    \"Node\",\n    \"JavaScript\",\n    \"nps\",\n    \"es6\",\n    \"es7\",\n    \"es8\"\n  ],\n  \"dependencies\": {\n    \"bluebird\": \"^3.5.2\",\n    \"body-parser\": \"^1.18.3\",\n    \"compression\": \"^1.7.3\",\n    \"cors\": \"^2.8.4\",\n    \"dotenv\": \"^6.1.0\",\n    \"express\": \"^4.16.3\",\n    \"http-status\": \"^1.2.0\",\n    \"mongoose\": \"^5.3.1\",\n    \"raven\": \"^2.6.4\"\n  },\n  \"devDependencies\": {\n    \"@babel/core\": \"^7.1.2\",\n    \"@babel/preset-env\": \"^7.1.0\",\n    \"all-contributors-cli\": \"^5.4.1\",\n    \"apidoc\": \"^0.17.6\",\n    \"babel-core\": \"^7.0.0-bridge.0\",\n    \"babel-jest\": \"^23.6.0\",\n    \"babel-loader\": \"^8.0.4\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^5.6.1\",\n    \"eslint-config-google\": \"^0.11.0\",\n    \"jest\": \"^23.6.0\",\n    \"nps\": \"^5.9.3\",\n    \"nps-utils\": \"^1.7.0\",\n    \"path\": \"^0.12.7\",\n    \"regenerator-runtime\": \"^0.12.1\",\n    \"webpack\": \"^4.21.0\",\n    \"webpack-cli\": \"^3.1.2\",\n    \"webpack-node-externals\": \"^1.7.2\"\n  }\n}\n",
+    "longname": "/Users/anthonyallen/Work/projects/design-system-api/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

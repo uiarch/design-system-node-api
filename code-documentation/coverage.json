@@ -1,0 +1,177 @@
+{
+  "coverage": "45.23%",
+  "expectCount": 84,
+  "actualCount": 38,
+  "files": {
+    "api/App.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        13,
+        16
+      ]
+    },
+    "api/configs/index.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        14,
+        21
+      ]
+    },
+    "api/controllers/AbstractController.js": {
+      "expectCount": 7,
+      "actualCount": 6,
+      "undocumentLines": [
+        29
+      ]
+    },
+    "api/controllers/ColorController.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "api/controllers/IconController.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "api/controllers/SizeController.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "api/controllers/UserController.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "api/controllers/VersionController.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "api/database/Connect.js": {
+      "expectCount": 5,
+      "actualCount": 4,
+      "undocumentLines": [
+        18
+      ]
+    },
+    "api/models/ColorModel.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        19
+      ]
+    },
+    "api/models/IconModel.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        22
+      ]
+    },
+    "api/models/SizeModel.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        19
+      ]
+    },
+    "api/models/UserModel.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        40
+      ]
+    },
+    "api/models/VersionModel.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        19
+      ]
+    },
+    "api/routes/IconRoutes.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "api/routes/UserRoutes.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "api/services/APIError.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "api/services/AbstractError.js": {
+      "expectCount": 7,
+      "actualCount": 2,
+      "undocumentLines": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    "api/services/AbstractLogger.js": {
+      "expectCount": 12,
+      "actualCount": 12,
+      "undocumentLines": []
+    },
+    "api/services/FormatError.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "api/services/LogLevel.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "api/services/Logger.js": {
+      "expectCount": 13,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        4,
+        6,
+        7,
+        10,
+        13,
+        16,
+        19,
+        22,
+        25,
+        28,
+        31,
+        34
+      ]
+    }
+  }
+}
