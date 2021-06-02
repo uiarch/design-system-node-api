@@ -1,10 +1,10 @@
-import IconController from '../../api/controllers/icon.controller';
-import Abstract from '../../api/controllers/abstract.controller';
+import IconController from '../../api/controllers/IconController';
+import Abstract from '../../api/controllers/AbstractController';
 
 const mockCreate = jest.fn();
 const mockGetList = jest.fn();
 const mockGetByName = jest.fn();
-jest.mock('../../api/controllers/abstract.controller', () => {
+jest.mock('../../api/controllers/AbstractController', () => {
   return jest.fn().mockImplementation(() => {
     return {create: mockCreate, getList: mockGetList, getByName: mockGetByName};
   });

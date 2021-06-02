@@ -170,11 +170,8 @@ NodeJS API for managing design system. Can also be used as a API project boilerp
 
 * Connecting to MongoDB
   * Copy `.env.example` to `.env`
-  * `MONGO_URL=localhost`
-  * `MONGO_DB_NAME=dbName`
-  * `MONGO_USER=username`
-  * `MONGO_PASSWORD=password`
-  * `MONGO_PORT=27017`
+  * MONGO_CONNECTION_STRING=
+  * MONGOOSE_DEBUG=true|false
 
 ## Running This Project
 ---
@@ -189,7 +186,7 @@ NodeJS API for managing design system. Can also be used as a API project boilerp
 * Run `eslint` which extends `eslint-config-google`.
   * `npm run lint` - `nps lint`
 * Run `eslint` fix.
-  * `lint:fix` - `nps lint.fix`
+  * `npm run lint:fix` - `nps lint.fix`
 * Follows the all-contributors specification.
   * Run `contributors:add` which is used to add yourself to the contributors list. See [all-contributors](https://www.npmjs.com/package/all-contributors-cli) for more details and usage.
     * `npm run contributors:add -- <github username> <contrib type>`

@@ -58,9 +58,18 @@ module.exports = {
   // globals: {},
 
   // An array of directory names to be searched recursively up from the requiring module's location
-  // moduleDirectories: [
-  //   "node_modules"
-  // ],
+  moduleDirectories: [
+    "node_modules",
+    "api/"
+  ],
+
+  "modulePaths": [
+    "<rootDir>"
+  ],
+
+  "setupFilesAfterEnv": [
+    "./__tests__/setupTests.js"
+  ],
 
   // An array of file extensions your modules use
   // moduleFileExtensions: [
@@ -75,7 +84,9 @@ module.exports = {
 
   // An array of regexp pattern strings, matched against all module paths before considered
   // 'visible' to the module loader
-  // modulePathIgnorePatterns: [],
+  modulePathIgnorePatterns: [
+    "./__tests__/setupTests.js"
+  ],
 
   // Activates notifications for test results
   // notify: false,
@@ -108,9 +119,10 @@ module.exports = {
   // rootDir: null,
 
   // A list of paths to directories that Jest should use to search for files in
-  // roots: [
-  //   "<rootDir>"
-  // ],
+  roots: [
+    "<rootDir>",
+    "api/"
+  ],
 
   // Allows you to use a custom runner instead of Jest's default test runner
   // runner: "jest-runner",
