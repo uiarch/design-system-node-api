@@ -1,4 +1,4 @@
-import Abstract from '../../api/controllers/abstract.controller';
+import Abstract from '../../api/controllers/AbstractController';
 
 describe('Abstract', () => {
   /**

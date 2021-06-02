@@ -1,10 +1,10 @@
-import VersionController from '../../api/controllers/version.controller';
-import Abstract from '../../api/controllers/abstract.controller';
+import VersionController from '../../api/controllers/VersionController';
+import Abstract from '../../api/controllers/AbstractController';
 
 const mockCreate = jest.fn();
 const mockGetList = jest.fn();
 const mockGetByName = jest.fn();
-jest.mock('../../api/controllers/abstract.controller', () => {
+jest.mock('../../api/controllers/AbstractController', () => {
   return jest.fn().mockImplementation(() => {
     return {create: mockCreate, getList: mockGetList, getByName: mockGetByName};
   });

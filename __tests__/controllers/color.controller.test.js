@@ -1,17 +1,17 @@
-import ColorController from '../../api/controllers/color.controller';
-import Abstract from '../../api/controllers/abstract.controller';
+import ColorController from '../../api/controllers/ColorController';
+import Abstract from '../../api/controllers/AbstractController';
 
 const mockCreate = jest.fn();
 const mockGetList = jest.fn();
 const mockGetByName = jest.fn();
-jest.mock('../../api/controllers/abstract.controller', () => {
+jest.mock('../../api/controllers/AbstractController', () => {
   return jest.fn().mockImplementation(() => {
     return {create: mockCreate, getList: mockGetList, getByName: mockGetByName};
   });
 });
 
 beforeEach(async () => {
-  await Abstract.mockClear();
+  // await Abstract.mockClear();
   await mockCreate.mockClear();
   await mockGetList.mockClear();
   await mockGetByName.mockClear();
